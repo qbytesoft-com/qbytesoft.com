@@ -1,4 +1,4 @@
-<p align="center"><img src="https://www.qbytesoft.com/qbytesite/wp-content/uploads/2017/05/qbytsoft_logo.png" width="400"></p>
+<p align="center"><img src="https://www.old.qbytesoft.com/qbytesite/wp-content/uploads/2017/05/qbytsoft_logo.png" width="400"></p>
 
 <p align="center">
 

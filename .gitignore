@@ -4,6 +4,7 @@
 /storage/*.key
 /vendor
 /config/qbytesoft.php
+/.idea
 .env
 .env.backup
 .phpunit.result.cache
