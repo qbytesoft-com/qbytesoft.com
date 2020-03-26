@@ -1,16 +1,11 @@
 <?php
-
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
-
-Route::get('/', function () {
-    return view('welcome');
+Route::domain(config('qbytesoft.domain'))->group(function (){
+    Route::namespace('Website')->group(function (){
+       Route::get('/','PageController@index')->name('qbytesoft.home');
+       Route::get('/web-development','PageController@webDevelopment')->name('qbytesoft.web-development');
+       Route::get('/open-source','PageController@openSource')->name('qbytesoft.open-source');
+       Route::get('/laravel','PageController@laravel')->name('qbytesoft.laravel');
+       Route::get('/about','PageController@about')->name('qbytesoft.about');
+    });
 });
+

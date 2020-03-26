@@ -1,0 +1,577 @@
+/*! HTML5 Boilerplate v7.1.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 1.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+   html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+
+
+ /* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{
+    background: #fff!important;
+    font-family: 'Open Sans', sans-serif!important;
+}
+/* Custom classes */
+.c-container{
+    width: 91%!important;
+    margin: auto!important;
+}
+.clear{
+    overflow: hidden!important;
+}
+.lead-sm{
+    font-size: 1.2rem!important;
+}
+.d-content{
+    display: contents!important;
+}
+.img-size{
+    object-fit: contain!important;
+    object-position: center!important;
+}
+.bg-white{
+    background: white!important;
+}
+.text-primary-d{
+    color: #172A3D!important;;
+}
+.text-danger-c{
+    color: #B95661!important;
+}
+.text-gray{
+    color: #767575!important;
+}
+.list-style-none{
+    list-style: none!important;
+}
+a:hover{
+    opacity: 0.7!important;
+}
+
+/* Customize bootstrap classes */
+a,.link-color{
+    color: #197593!important;
+}
+/* Navber design start */
+.navbar-brand{
+    width: 10rem;
+}
+.nav-item > .active,.footer-menu > .active{
+    font-weight: bold!important;
+}
+.nav-link{
+    font-size: 1.1rem;
+    color: #2B809B!important;
+}
+.nav-link:hover{
+    color: #004966!important;
+}
+/* Navber design end */
+
+/* Main section design start */
+.home-hero-section,.laravel-hero-section,.web-dev-hero-section,.about-hero-section{
+    min-height: 500px;
+    background: url(../img/bg1.jpg);
+    background-color: linear-gradient(to top,#ffffff,rgba(255, 255, 255, 0));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.laravel-hero-section{
+    background-image: url(../img/laravel___medialibrary_original_2007_1400.jpg);
+}
+.web-dev-hero-section{
+    background-image: url(../img/bg2.jpg);
+}
+.about-hero-section{
+    background-image: url(../img/about___medialibrary_original_1176_820.jpg);
+}
+.home-hero-section h1,.laravel-hero-section h1,.web-dev-hero-section h1,.about-hero-section h1{
+    font-size: 2rem!important;
+    font-weight: bold;
+}
+.inst-left,.inst-right,.team-member-des,.ours{
+    border-left: 2px solid #DADBDC!important;
+}
+.inst-item-list-row li{
+    float: left!important;
+}
+/* The banner design */
+.banner-card{
+    border-radius: 0.5rem!important;
+    background :linear-gradient(to right,#21b989,#82d8af)!important;
+}
+/* Client section design */
+.client-section,.our-technology,.our-clients,.our-teams{
+    background: linear-gradient(to bottom,#ffffff,#F2EFEB)!important;
+}
+/* Main section design end */
+/* Footer design start */
+.footer-top{
+    background: #fff!important;
+}
+.footer-top-title{
+    border-top: 4px solid;
+    font-size: 3.5rem!important;
+}
+/* Design the postcard */
+.postcard-left{
+    right: unset!important;
+    left: -36rem;
+}
+.postcard {
+    right: -36rem;
+    top: 5rem;
+}
+.postcard a{
+    transform: rotate(-3deg);
+}
+.postcard-left a{
+    transform: rotate(3deg);
+}
+.postcard-image{
+    width: 53rem!important;
+}
+/* Learn more links */
+.learn-more{
+    background: linear-gradient(to right, #CBE2E9, #E1F0F2)!important;
+    border-radius: 0.5rem;
+}
+/* Footer */
+.the-footer,.footer-bootom{
+    background: #393E3A!important;
+}
+.the-footer a, p {
+    color: #f7f7f7 !important;
+}
+.footer-menu a,.social a,.adr a,.contact a,.footer-bootom-menu a{
+    color: #f7f7f7!important;
+}
+.footer-bootom-menu a{
+    opacity: 0.5!important;
+}
+/* Footer design end */
+
+/* Laravel page design start */
+/* Short description design start */
+.srt-des-laravel-icon,.srt-des-vueJs-icon,.srt-des-reactJs-icon{
+    background: #ffffff!important;
+    padding: 0.8rem;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+.srt-des-vueJs-icon,.srt-des-reactJs-icon{
+    position: absolute;
+}
+.srt-des-reactJs-icon{
+    left: 4.5rem;
+}
+/* Short description design end */
+/* Our technology section design start */
+.our-technology-heading,.our-clients-heading,.our-team-heading{
+    background: #ffffff;
+    display: inline-block;
+    padding-right: 1rem;
+}
+.our-technology-heading::after,.our-clients-heading::after,.our-team-heading::after{
+    content: "";
+    width: calc(100% - 21rem);
+    height: 0.2rem;
+    background: #dddddd!important;
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 0;
+}
+.technology-item p{
+    font-size: 1rem!important;
+    position: relative;
+}
+.technology-item p::after{
+    content: "";
+    width: 0.3rem;
+    height: 0.3rem;
+    background: #197593!important;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    right: -1.5rem;
+    top: 0.6rem;
+}
+.technology-item p:last-child::after{
+    display: none!important;
+}
+/* Our technology section design end */
+/* Laravel page design end */
+/* Web development page design start */
+.work-step p{
+    font-size: 1.2rem!important;
+}
+.work-process1{
+    left: -16rem;
+    width: 55rem;
+    top: -4rem;
+    z-index: 999;
+}
+.work-process2{
+    width: 40rem;
+    top: 0;
+    right: 4rem;
+}
+.work-process3{
+    width: 40rem;
+    left: -1rem;
+    bottom: -1rem;
+}
+.work-process4{
+    width: 20rem;
+    right: 2rem;
+    top: 2rem;
+}
+.work-process5{
+    width: 65rem;
+    top: -15rem;
+    left: -18rem;
+}
+.work-process6{
+    width: 15rem;
+    left: -14rem;
+    top: -10rem;
+}
+.grd-6{
+    display: grid!important;
+}
+/* Web development page design end */
+/* About page design start */
+.avatar{
+    width: 6rem;
+    height: 6rem;
+}
+.avatar img{
+    height: 100%;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0px 0px 1px 2px #dddddd;
+    object-fit: cover;
+    object-position: center;
+}
+/* About page design end */
+ /* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+ .hidden {
+  display: none !important;
+}
+
+/*
+* Hide only visually, but have it available for screen readers:
+* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+*
+* 1. For long content, line feeds are not interpreted as spaces and small width
+*    causes content to wrap 1 word per line:
+*    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+*/
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap; /* 1 */
+}
+
+/*
+* Extends the .visuallyhidden class to allow the element
+* to be focusable when navigated to via the keyboard:
+* https://www.drupal.org/node/897638
+*/
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+  white-space: inherit;
+}
+
+/*
+* Hide visually and from screen readers, but maintain layout
+*/
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+* Clearfix: contain floats
+*
+* For modern browsers
+* 1. The space content is one way to avoid an Opera bug when the
+*    `contenteditable` attribute is included anywhere else in the document.
+*    Otherwise it causes space to appear at the top and bottom of elements
+*    that receive the `clearfix` class.
+* 2. The use of `table` rather than `block` is only necessary if using
+*    `:before` to contain the top-margins of child elements.
+*/
+
+.clearfix:before,
+.clearfix:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (min-width: 576px) {
+    /* navbar brand */
+    .navbar-brand{
+        width: 15rem!important;
+    }
+    .navbar-brand img{
+        width: 50%!important;
+    }
+    /* End navbar brand */
+    .lead-sm{
+        font-size: 1.5rem!important;
+    }
+    .home-hero-section h1,.laravel-hero-section h1,.web-dev-hero-section h1,.about-hero-section h1{
+        font-size: 3rem!important;
+    }
+    /* Short description design Start    */
+    .srt-des-item h5{
+        padding-top: 10rem!important;
+    }
+    .srt-des-laravel-icon{
+        padding: 1.5rem;
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+        position: absolute;
+        top: 0.5rem;
+        right: -0.5rem;
+        z-index: 1;
+    }
+    .srt-des-vueJs-icon,.srt-des-reactJs-icon{
+        padding: 1rem;
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+        position: absolute;
+        left: 0em;
+    }
+    .srt-des-reactJs-icon{
+        position: absolute;
+        top: 4rem;
+        left: 0em;
+    }
+    /* Short description design end */
+}
+@media only screen and (min-width: 768px) {
+    .lead{
+        font-size: 2rem!important;
+    }
+    .home-hero-section h1,.laravel-hero-section h1,.web-dev-hero-section h1,.about-hero-section h1{
+        font-size: 5rem!important;
+    }
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+   @media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster */
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+
