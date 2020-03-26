@@ -178,11 +178,14 @@ a,.link-color{
     background-image: url(../img/bg2.jpg);
 }
 .about-hero-section{
-    background-image: url(../img/about___medialibrary_original_1176_820.jpg);
+    background-image: url(../img/bg1.jpg);
 }
 .home-hero-section h1,.laravel-hero-section h1,.web-dev-hero-section h1,.about-hero-section h1{
     font-size: 2rem!important;
     font-weight: bold;
+}
+.promo-laravel img{
+    width: 100% !important;
 }
 .inst-left,.inst-right,.team-member-des,.ours{
     border-left: 2px solid #DADBDC!important;

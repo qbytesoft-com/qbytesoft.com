@@ -9,8 +9,8 @@
     <div class="laravel-hero-section py-5">
         <div class="container pt-5">
             <!-- Hero heading -->
-            <h1 class="text-primary-d m-0">A fertile </h1>
-            <h1 class="text-primary-d m-0">ecosystem</h1>
+            <h1 class="text-primary-d m-0">The Modern </h1>
+            <h1 class="text-primary-d m-0">Web Technology</h1>
 
             <p class="mt-3 text-primary-d lead m-0">Our preferred tools to build</p>
             <p class="text-primary-d lead m-0">using Laravel, React & Vue</p>
@@ -21,7 +21,7 @@
                     <div class="srt-des-item col-sm-6 position-relative text-left text-sm-right">
                         <!-- Laravel icon -->
                         <div class="srt-des-laravel-icon mb-4 mb-sm-0 d-flex justify-content-center shadow">
-                            <img src="img/laravel.svg" alt="laravel">
+                            <img src="{{ asset('qbytesoft/img/laravel.svg') }}" alt="laravel">
                         </div>
                         <!-- Description -->
                         <h5 class="text-primary-d font-weight-bold">LARAVEL FRAMEWORK</h5>
@@ -31,11 +31,11 @@
                     <div class="srt-des-item col-sm-6 position-relative text-left">
                         <!-- Vue js icon -->
                         <div class="srt-des-vueJs-icon mb-4 mb-sm-0 d-flex justify-content-center shadow">
-                            <img src="img/vuejs.svg" alt="laravel" >
+                            <img src="{{ asset('qbytesoft/img/vuejs.svg') }}" alt="laravel" >
                         </div>
                         <!-- React js icon -->
                         <div class="srt-des-reactJs-icon mb-4 mb-sm-0 d-flex justify-content-center shadow">
-                            <img src="img/reactjs.svg" alt="laravel">
+                            <img src="{{ asset('qbytesoft/img/reactjs.svg') }}" alt="laravel">
                         </div>
                         <!-- Description -->
                         <h5 class="text-primary-d font-weight-bold mt-5 pt-5 mt-sm-0 pt-sm-0">REACT & VUE.JS</h5>
@@ -50,41 +50,51 @@
     <div class="container">
         <hr>
         <!-- All content -->
-        <div class="the-content mt-5 pt-sm-5">
-            <h3 class="text-primary-d font-weight-bold mb-4">Our greenhouse</h3>
-            <p class="text-primary-d lead-sm">We are truly a household name in the community, having contributed over <a href="">269 building blocks.</a> Our packages have been downloaded more than 50 million times by peer developers.</p>
-            <p class="text-primary-d lead-sm">The many contributions, conference talks and top ranking amongst PHP developers are proof of our dedication to the Laravel ecosystem, and even more: to web development in general.</p>
+        <div class="row">
+            <div class="col-6">
+                <div class="the-content mt-5 pt-sm-5">
+                    <h3 class="text-primary-d font-weight-bold mb-4">Our greenhouse</h3>
+                    <p class="text-primary-d lead-sm">We are truly a household name in the community, having contributed over <a href="">269 building blocks.</a> Our packages have been downloaded more than 50 million times by peer developers.</p>
+                    <p class="text-primary-d lead-sm">The many contributions, conference talks and top ranking amongst PHP developers are proof of our dedication to the Laravel ecosystem, and even more: to web development in general.</p>
 
-            <!-- Proof section -->
-            <div class="learn-more my-5 p-5 d-flex flex-column flex-sm-row justify-content-between align-items-center">
-                <h1 class="text-primary-d font-weight-bold">Need <br>proof?</h1>
 
-                <ul class="p-0 m-0 mt-4 mt-sm-0">
-                    <!-- List item -->
-                    <li class="list-style-none">
-                        <p class="lead-sm">
-                            <i class="fas fa-chevron-right text-primary fa-xs"></i>
-                            <a href="#" class="text-primary-d">Our open source work</a>
-                        </p>
-                    </li>
-                    <!-- List item -->
-                    <li class="list-style-none">
-                        <p class="lead-sm">
-                            <i class="fas fa-chevron-right text-primary fa-xs"></i>
-                            <a href="#" class="text-primary-d">Top ranking on GitHub</a>
-                        </p>
-                    </li>
-                    <!-- List item -->
-                    <li class="list-style-none">
-                        <p class="lead-sm">
-                            <i class="fas fa-chevron-right text-primary fa-xs"></i>
-                            <a href="#" class="text-primary-d">A skilled team</a>
-                        </p>
-                    </li>
-                </ul>
+                </div>
             </div>
-            <!-- End proof section -->
+            <div class="col-6">
+                <div class="promo-laravel">
+                    <img src="{{ asset('qbytesoft/img/cover/laravel.svg') }}" alt="Promot">
+                </div>
+            </div>
         </div>
+        <!-- Proof section -->
+        <div class="learn-more my-5 p-5 d-flex flex-column flex-sm-row justify-content-between align-items-center">
+            <h1 class="text-primary-d font-weight-bold">Need <br>proof?</h1>
+
+            <ul class="p-0 m-0 mt-4 mt-sm-0">
+                <!-- List item -->
+                <li class="list-style-none">
+                    <p class="lead-sm">
+                        <i class="fas fa-chevron-right text-primary fa-xs"></i>
+                        <a href="#" class="text-primary-d">Our open source work</a>
+                    </p>
+                </li>
+                <!-- List item -->
+                <li class="list-style-none">
+                    <p class="lead-sm">
+                        <i class="fas fa-chevron-right text-primary fa-xs"></i>
+                        <a href="#" class="text-primary-d">Top ranking on GitHub</a>
+                    </p>
+                </li>
+                <!-- List item -->
+                <li class="list-style-none">
+                    <p class="lead-sm">
+                        <i class="fas fa-chevron-right text-primary fa-xs"></i>
+                        <a href="#" class="text-primary-d">A skilled team</a>
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <!-- End proof section -->
     </div>
     <!-- Our technology -->
     <div class="our-technology py-5">
