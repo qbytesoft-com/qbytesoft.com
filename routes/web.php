@@ -1,5 +1,5 @@
 <?php
-Route::domain(config('qbytesoft.domain'))->group(function (){
+Route::group(function (){
     Route::namespace('Website')->group(function (){
        Route::get('/','PageController@index')->name('qbytesoft.home');
        Route::get('/web-development','PageController@webDevelopment')->name('qbytesoft.web-development');
