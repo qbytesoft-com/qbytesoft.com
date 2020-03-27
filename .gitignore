@@ -5,6 +5,7 @@
 /vendor
 /config/qbytesoft.php
 /.idea
+.user.ini
 composer.lock
 package-lock.json
 .env
