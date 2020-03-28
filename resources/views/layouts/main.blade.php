@@ -28,13 +28,13 @@
     <meta name="twitter:description" content="Build your web application or website by PHP, Javascript, Laravel, Vue, React, MySQL, PostgreSQL.Qbytesoft provides quality UI and Band design for your business.">
     <meta name="twitter:image" content="https://qbytesoft.com/qbytesoft/img/logo/qbytsoft_logo.png">
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77964946-2"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77552429-2"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'UA-77964946-2');
+        gtag('config', 'UA-77552429-2');
     </script>
 </head>
 
