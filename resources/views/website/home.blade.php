@@ -75,7 +75,7 @@
         <div class="row">
             <!-- newslatter's -->
             <div class="col-md-6 my-5 d-flex justify-content-center justify-content-md-start">
-                <a href="#" title="newslatter" class="d-content"><img src="{{ asset('qbytesoft/img/newslatter1.jpg') }}" alt="newslatter" class="img-size w-75 shadow"></a>
+                <a href="#" title="newslatter" class="d-content"><img src="{{ asset('qbytesoft/img/newslatter1.jpg') }}" loading="lazy" alt="newslatter" class="img-size w-75 shadow"></a>
             </div>
             <div class="col-md-6 my-5 d-flex flex-column align-items-center align-items-md-start">
                 <h3 class="font-weight-bold text-primary-d text-center text-md-left">Newsletter software and package</h3>
@@ -96,14 +96,14 @@
                 <p class="lead-sm"><i class="fas fa-chevron-right text-danger-c"></i> <a href="#">flareapp.io</a></p>
             </div>
             <div class="col-md-6 my-5 d-flex justify-content-center justify-content-md-end order-0 order-md-1">
-                <a href="#" title="newslatter" class="d-content"><img src="{{ asset('qbytesoft/img/newslatter2.jpg') }}" alt="newslatter" class="img-size w-75 shadow"></a>
+                <a href="#" title="newslatter" class="d-content"><img src="{{ asset('qbytesoft/img/newslatter2.jpg') }}" loading="lazy" alt="newslatter" class="img-size w-75 shadow"></a>
             </div>
         </div>
 
         <div class="row">
             <!-- newslatter's -->
             <div class="col-md-6 my-5 d-flex justify-content-center justify-content-md-start">
-                <a href="#" title="newslatter" class="d-content"><img src="{{ asset('qbytesoft/img/newslatter3.jpg') }}" alt="newslatter" class="img-size w-75 shadow"></a>
+                <a href="#" title="newslatter" class="d-content"><img src="{{ asset('qbytesoft/img/newslatter3.jpg') }}" loading="lazy" alt="newslatter" class="img-size w-75 shadow"></a>
             </div>
             <div class="col-md-6 my-5 d-flex flex-column align-items-center align-items-md-start">
                 <h3 class="font-weight-bold text-primary-d text-center text-md-left">Soundcloud Demo Platform</h3>
@@ -124,7 +124,7 @@
                 <p class="lead-sm"><i class="fas fa-chevron-right text-danger-c"></i> <a href="#">my.artassistant.com</a></p>
             </div>
             <div class="col-md-6 my-5 d-flex justify-content-center justify-content-md-end order-0 order-md-1">
-                <a href="#" title="newslatter" class="d-content"><img src="{{ asset('qbytesoft/img/newslatter4.jpg') }}" alt="newslatter" class="img-size w-75 shadow"></a>
+                <a href="#" title="newslatter" class="d-content"><img src="{{ asset('qbytesoft/img/newslatter4.jpg') }}" loading="lazy" alt="newslatter" class="img-size w-75 shadow"></a>
             </div>
         </div>
     </div>

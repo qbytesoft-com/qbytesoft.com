@@ -43,7 +43,7 @@
                     <!-- Process1 -->
                     <div class="col-sm-6 col-md-8 position-relative d-none d-lg-block">
                         <div class="work-process1 position-absolute">
-                            <img src="{{ asset('qbytesoft/img/process-01.svg') }}" alt="process1" class="w-100">
+                            <img src="{{ asset('qbytesoft/img/process-01.svg') }}" loading="lazy" alt="process1" class="w-100">
                         </div>
                     </div>
                     <!-- Working step2 -->
@@ -87,13 +87,13 @@
                     <!-- Process3 -->
                     <div class="col-sm-6 col-md-8 position-relative d-none d-lg-block">
                         <div class="work-process3 position-absolute">
-                            <img src="{{ asset('qbytesoft/img/process-03.svg') }}" alt="process3" class="w-100">
+                            <img src="{{ asset('qbytesoft/img/process-03.svg') }}" loading="lazy" alt="process3" class="w-100">
                         </div>
                     </div>
                     <!-- Process4 -->
                     <div class="col-sm-6 col-lg-4 position-relative d-none d-lg-block">
                         <div class="work-process4 position-absolute">
-                            <img src="{{ asset('qbytesoft/img/process-04.svg') }}" alt="process4" class="w-100">
+                            <img src="{{ asset('qbytesoft/img/process-04.svg') }}" loading="lazy" alt="process4" class="w-100">
                         </div>
                     </div>
                     <!-- Working step6 -->
@@ -107,7 +107,7 @@
                     <!-- Working step7 -->
                     <div class="col-sm-6 col-lg-4 mt-3 mt-lg-5 position-relative">
                         <div class="work-process6 position-absolute d-none d-lg-block">
-                            <img src="{{ asset('qbytesoft/img/process-06.svg') }}" alt="process6" class="w-100">
+                            <img src="{{ asset('qbytesoft/img/process-06.svg') }}" loading="lazy" alt="process6" class="w-100">
                         </div>
                         <div class="work-step">
                             <h4 class="text-primary-d font-weight-bold text-uppercase">7. FOLLOW UP</h4>
@@ -117,7 +117,7 @@
                     <!-- Process5 -->
                     <div class="col-sm-6 col-md-8 position-relative d-none d-lg-block">
                         <div class="work-process5 position-absolute">
-                            <img src="{{ asset('qbytesoft/img/process-05.svg') }}" alt="process5" class="w-100">
+                            <img src="{{ asset('qbytesoft/img/process-05.svg') }}" loading="lazy" alt="process5" class="w-100">
                         </div>
                     </div>
                 </div>

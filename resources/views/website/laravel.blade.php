@@ -21,7 +21,7 @@
                     <div class="srt-des-item col-sm-6 position-relative text-left text-sm-right">
                         <!-- Laravel icon -->
                         <div class="srt-des-laravel-icon mb-4 mb-sm-0 d-flex justify-content-center shadow">
-                            <img src="{{ asset('qbytesoft/img/laravel.svg') }}" alt="laravel">
+                            <img src="{{ asset('qbytesoft/img/laravel.svg') }}" loading="lazy" alt="laravel">
                         </div>
                         <!-- Description -->
                         <h5 class="text-primary-d font-weight-bold">LARAVEL FRAMEWORK</h5>
@@ -31,11 +31,11 @@
                     <div class="srt-des-item col-sm-6 position-relative text-left">
                         <!-- Vue js icon -->
                         <div class="srt-des-vueJs-icon mb-4 mb-sm-0 d-flex justify-content-center shadow">
-                            <img src="{{ asset('qbytesoft/img/vuejs.svg') }}" alt="laravel" >
+                            <img src="{{ asset('qbytesoft/img/vuejs.svg') }}" loading="lazy" alt="laravel" >
                         </div>
                         <!-- React js icon -->
                         <div class="srt-des-reactJs-icon mb-4 mb-sm-0 d-flex justify-content-center shadow">
-                            <img src="{{ asset('qbytesoft/img/reactjs.svg') }}" alt="laravel">
+                            <img src="{{ asset('qbytesoft/img/reactjs.svg') }}" loading="lazy" alt="laravel">
                         </div>
                         <!-- Description -->
                         <h5 class="text-primary-d font-weight-bold mt-5 pt-5 mt-sm-0 pt-sm-0">REACT & VUE.JS</h5>
@@ -62,7 +62,7 @@
             </div>
             <div class="col-6">
                 <div class="promo-laravel">
-                    <img src="{{ asset('qbytesoft/img/cover/laravel.svg') }}" alt="Promot">
+                    <img src="{{ asset('qbytesoft/img/cover/laravel.svg') }}" loading="lazy" alt="Promotion">
                 </div>
             </div>
         </div>

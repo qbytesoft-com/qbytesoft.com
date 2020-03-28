@@ -66,7 +66,7 @@
                         <!-- Team member top information -->
                         <div class="member-info d-flex flex-row justify-content-start align-items-center">
                             <div class="avatar">
-                                <img src="{{ asset('qbytesoft/img/team/profile_shawon.jpg') }}" alt="team_member" class="w-100">
+                                <img src="{{ asset('qbytesoft/img/team/profile_shawon.jpg') }}" loading="lazy" alt="team_member" class="w-100">
                             </div>
                             <div class="memeber-name-pos ml-3">
                                 <h5 class="text-primary-d font-weight-bold text-uppercase">Md Morshadun Nur</h5>
@@ -87,7 +87,7 @@
                         <!-- Team member top information -->
                         <div class="member-info d-flex flex-row justify-content-start align-items-center">
                             <div class="avatar">
-                                <img src="qbytesoft/img/avatar/pexels-photo-415829.jpeg" alt="team_member" class="w-100">
+                                <img src="{{ asset('qbytesoft/img/avatar/pexels-photo-415829.jpeg') }}" loading="lazy"  alt="team_member" class="w-100">
                             </div>
                             <div class="memeber-name-pos ml-3">
                                 <h5 class="text-primary-d font-weight-bold text-uppercase">Nabil Ahmed Emon</h5>
