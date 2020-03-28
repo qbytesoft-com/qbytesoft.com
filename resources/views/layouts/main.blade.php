@@ -15,6 +15,27 @@
 
     <meta name="theme-color" content="#fafafa">
     @stack('css')
+    <meta property="og:title" content="Qbytesoft">
+    <meta property="og:author" content="Md. Morshadun Nur">
+    <meta property="og:description" content="Build your web application or website by PHP, Javascript, Laravel, Vue, React, MySQL, PostgreSQL.Qbytesoft provides quality UI and Band design for your business.">
+    <meta property="og:type" content="article">
+
+    <meta property="og:url" content="https://qbytesoft.com">
+    <meta property="og:image" content="https://qbytesoft.com/qbytesoft/img/logo/qbytsoft_logo.png">
+    <meta name="twitter:card" content="player">
+    <meta name="twitter:site" content="@qbytesoft">
+    <meta name="twitter:title" content="Qbytesoft">
+    <meta name="twitter:description" content="Build your web application or website by PHP, Javascript, Laravel, Vue, React, MySQL, PostgreSQL.Qbytesoft provides quality UI and Band design for your business.">
+    <meta name="twitter:image" content="https://qbytesoft.com/qbytesoft/img/logo/qbytsoft_logo.png">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-77964946-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-77964946-2');
+    </script>
 </head>
 
 <body>
