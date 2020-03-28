@@ -38,6 +38,7 @@ class RouteServiceProvider extends ServiceProvider
         $this->mapApiRoutes();
 
         $this->mapWebRoutes();
+        $this->mapDashboardRoutes();
 
         //
     }
@@ -69,5 +70,13 @@ class RouteServiceProvider extends ServiceProvider
              ->middleware('api')
              ->namespace($this->namespace)
              ->group(base_path('routes/api.php'));
+    }
+
+    private function mapDashboardRoutes()
+    {
+        Route::domain(config('qbytesoft.dashboard'))
+            ->middleware('web')
+            ->namespace($this->namespace)
+            ->group(base_path('routes/dashboard.php'));
     }
 }

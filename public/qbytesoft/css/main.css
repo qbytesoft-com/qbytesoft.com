@@ -129,6 +129,10 @@ body{
 .text-primary-d{
     color: #172A3D!important;;
 }
+.text-primary-l{
+    color: #f7f7f7!important;;
+}
+
 .text-danger-c{
     color: #B95661!important;
 }
@@ -165,20 +169,21 @@ a,.link-color{
 /* Main section design start */
 .home-hero-section,.laravel-hero-section,.web-dev-hero-section,.about-hero-section{
     min-height: 500px;
-    background: url(../img/bg1.jpg);
+    background: url(../img/cover/optbg1.jpg);
     background-color: linear-gradient(to top,#ffffff,rgba(255, 255, 255, 0));
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 .laravel-hero-section{
-    background-image: url(../img/laravel___medialibrary_original_2007_1400.jpg);
+    /*background-image: url(../img/cover/laravel.jpg);*/
+background: linear-gradient(120deg, #f55247, #FFFFFF);
 }
 .web-dev-hero-section{
-    background-image: url(../img/bg2.jpg);
+    background-image: url(../img/cover/optbg2.jpg);
 }
 .about-hero-section{
-    background-image: url(../img/bg1.jpg);
+    background-image: url(../img/cover/team.jpg);
 }
 .home-hero-section h1,.laravel-hero-section h1,.web-dev-hero-section h1,.about-hero-section h1{
     font-size: 2rem!important;

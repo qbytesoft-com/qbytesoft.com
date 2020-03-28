@@ -10,3 +10,5 @@ Route::namespace('Website')->group(function (){
     Route::get('/about','PageController@about')->name('qbytesoft.about');
 });
 
+
+
