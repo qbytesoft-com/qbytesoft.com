@@ -7,17 +7,17 @@
     <div class="home-hero-section py-5">
         <div class="container pt-5">
             <!-- Hero heading -->
-            <h1 class="text-primary-d">No frills,<br>just proven expertise</h1>
-            <p class="mt-3 text-primary-d lead">We craft websites & web applications<br>using Laravel, React & Vue</p>
-            <!-- LATEST INSIGHTS section -->
+            <h1 class="text-primary-d">Got an Idea?,<br> We'll make it real.</h1>
+            <p class="mt-3 text-primary-d lead">We do design and develop websites & web applications.<br>Expert in Laravel, React & Vue</p>
+            <!-- LATEST INSIGHTS section
             <div class="lts-inst pt-5">
                 <div class="row mt-5 d-flex align-items-end">
-                    <!-- Instghts items left -->
+
                     <div class="col-md-6">
                         <div class="inst-left pl-3">
                             <h5 class="font-weight-bold text-primary-d">LATEST INSIGHTS</h5>
                             <h6 class="font-weight-bold text-danger-c">FROM THE TEAM</h6>
-                            <!-- LATEST INSIGHTS item -->
+
                             <div class="inst-item pt-4">
                                 <a href="#" class="text-decoration-none text-primary-d"><h5>Relationship issues</h5></a>
                                 <div class="d-flex flex-row justify-content-start">
@@ -27,7 +27,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <!-- LATEST INSIGHTS item -->
+
                             <div class="inst-item pt-4">
                                 <a href="#" class="text-decoration-none text-primary-d"><h5>Improving Artisan commands</h5></a>
                                 <div class="d-flex flex-row justify-content-start">
@@ -39,10 +39,10 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Instghts items right -->
+
                     <div class="col-md-6">
                         <div class="inst-right pl-3">
-                            <!-- LATEST INSIGHTS item -->
+
                             <div class="inst-item pt-4">
                                 <a href="#" class="text-decoration-none text-primary-d"><h5>Full Stack Europe 2019 recap</h5></a>
                                 <div class="d-flex flex-row justify-content-start">
@@ -52,7 +52,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <!-- LATEST INSIGHTS item -->
+
                             <div class="inst-item pt-4">
                                 <a href="#" class="text-decoration-none text-primary-d"><h5>Storing and retrieving webmentions with Firebase</h5></a>
                                 <div class="d-flex flex-row justify-content-start">
@@ -66,14 +66,14 @@
                     </div>
                 </div>
             </div>
-            <!-- End LATEST INSIGHTS section -->
+             End LATEST INSIGHTS section -->
         </div>
     </div>
     <!-- End hero section -->
-    <!-- Newslatter section start -->
+    <!-- Newslatter section start
     <div class="c-container py-5">
         <div class="row">
-            <!-- newslatter's -->
+
             <div class="col-md-6 my-5 d-flex justify-content-center justify-content-md-start">
                 <a href="#" title="newslatter" class="d-content"><img src="{{ asset('qbytesoft/img/newslatter1.jpg') }}" loading="lazy" alt="newslatter" class="img-size w-75 shadow"></a>
             </div>
@@ -86,7 +86,7 @@
                 <p class="lead-sm"><i class="fas fa-chevron-right text-danger-c"></i> <a href="#">mailcoach.app</a></p>
             </div>
 
-            <!-- newslatter's -->
+
             <div class="col-md-6 my-5 d-flex flex-column align-items-center align-items-md-end order-1 order-md-0">
                 <h3 class="font-weight-bold text-primary-d text-center text-md-left">Ignition + Flare</h3>
                 <h6 class="text-danger-c"><b>ERROR PAGE + TRACKER</b> FOR LARAVEL</h6>
@@ -101,7 +101,7 @@
         </div>
 
         <div class="row">
-            <!-- newslatter's -->
+
             <div class="col-md-6 my-5 d-flex justify-content-center justify-content-md-start">
                 <a href="#" title="newslatter" class="d-content"><img src="{{ asset('qbytesoft/img/newslatter3.jpg') }}" loading="lazy" alt="newslatter" class="img-size w-75 shadow"></a>
             </div>
@@ -114,7 +114,7 @@
                 <p class="lead-sm"><i class="fas fa-chevron-right text-danger-c"></i> <a href="#">demo.stmpdrcrds.com</a></p>
             </div>
 
-            <!-- newslatter's -->
+
             <div class="col-md-6 my-5 d-flex flex-column align-items-center align-items-md-end order-1 order-md-0">
                 <h3 class="font-weight-bold text-primary-d text-center text-md-left">Art Transaction Platform</h3>
                 <h6 class="text-danger-c">USING <b>LARAVEL, VUE, STRIPE</b></h6>
@@ -128,7 +128,7 @@
             </div>
         </div>
     </div>
-    <!-- End newslatter section -->
+     End newslatter section -->
     <!-- Banner -->
     <div class="banner my-5">
         <div class="container">

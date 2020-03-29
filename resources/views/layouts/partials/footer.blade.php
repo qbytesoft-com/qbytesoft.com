@@ -5,12 +5,12 @@
             <div class="row mt-5">
                 <!--Left Discription -->
                 <div class="col-md-8">
-                    <h1 class="font-weight-bold footer-top-title text-primary-d d-inline-block pt-3">From the<br>(open) source</h1>
+                    <h1 class="font-weight-bold footer-top-title text-primary-d d-inline-block pt-3">We &#10084;<br>(open) source</h1>
                     <p class="text-primary-d lead-sm mt-5">
-                        We are open source enthusiasts and love to work Laravel ecosystem. Mostly we use Laravel backend for the custom web application and crm. Our <a target="_blank" href="{{ url('https://github.com/orgs/qbytesoft-com/people') }}">team members</a> amongst Web Developer on GitHub makes us confident.
+                        We are open source enthusiasts and love to work Laravel ecosystem. Mostly we use Laravel backend for the custom web application and CRM. Our <a target="_blank" href="{{ url('https://github.com/orgs/qbytesoft-com/people') }}">team members</a> amongst Web Developer on GitHub makes us confident.
                     </p>
                     <div class="learn-more mt-5 p-4">
-                        <h5 class="text-primary-d font-weight-bold">LEARN MORE</h5>
+                        <h5 class="text-primary-d font-weight-bold">LOOK AT THIS</h5>
                         <ul class="p-0 m-0 mt-4">
                             <li class="list-style-none">
                                 <p class="lead-sm">
@@ -34,9 +34,11 @@
                             <img src="{{ asset('qbytesoft/img/p3.jpg') }}" alt="post-card" class="w-50">
                         </div>
                     </a>
+                    <!--
                     <div class="d-flex justify-content-start">
                         <p class="mt-5 text-right small">Check out the <a href="#">postcards</a><br>we get from kind users all over the world.</p>
                     </div>
+                    -->
                 </div>
             </div>
         </div>
