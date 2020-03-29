@@ -1,4 +1,4 @@
-  
+
 <IfModule mod_rewrite.c>
     <IfModule mod_negotiation.c>
         Options -MultiViews -Indexes
@@ -14,6 +14,13 @@
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_URI} (.+)/$
     RewriteRule ^ %1 [L,R=301]
+
+    # Serve Cached Page If Available...
+    RewriteCond %{REQUEST_URI} ^/?$
+    RewriteCond %{DOCUMENT_ROOT}/page-cache/pc__index__pc.html -f
+    RewriteRule .? page-cache/pc__index__pc.html [L]
+    RewriteCond %{DOCUMENT_ROOT}/page-cache%{REQUEST_URI}.html -f
+    RewriteRule . page-cache%{REQUEST_URI}.html [L]
 
     # Send Requests To Front Controller...
     RewriteCond %{REQUEST_FILENAME} !-d

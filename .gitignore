@@ -7,6 +7,7 @@
 /.idea
 .user.ini
 composer.lock
+/public/page-cache
 package-lock.json
 .env
 .env.backup
