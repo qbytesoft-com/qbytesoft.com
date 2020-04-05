@@ -175,6 +175,9 @@ a,.link-color{
     background-position: center;
     background-size: cover;
 }
+.banner-slogan{
+    font-family: Chronicle Display A,serif;
+}
 .laravel-hero-section{
     /*background-image: url(../img/cover/laravel.jpg);*/
 background: linear-gradient(120deg, #f55247, #FFFFFF);
@@ -219,7 +222,7 @@ background: linear-gradient(120deg, #f55247, #FFFFFF);
 /* Design the postcard */
 .postcard-left{
     right: unset!important;
-    left: -36rem;
+    left: -45rem;
 }
 .postcard {
     right: -36rem;
@@ -232,7 +235,7 @@ background: linear-gradient(120deg, #f55247, #FFFFFF);
     transform: rotate(3deg);
 }
 .postcard-image{
-    width: 53rem!important;
+    width: 65rem!important;
 }
 /* Learn more links */
 .learn-more{
@@ -448,7 +451,7 @@ background: linear-gradient(120deg, #f55247, #FFFFFF);
 @media only screen and (min-width: 576px) {
     /* navbar brand */
     .navbar-brand{
-        width: 15rem!important;
+        width: 10rem!important;
     }
     .navbar-brand img{
         width: 50%!important;
