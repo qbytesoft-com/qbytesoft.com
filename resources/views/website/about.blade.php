@@ -7,9 +7,9 @@
 @section('content')
     <!-- The hero section -->
     <div class="about-hero-section py-5">
-        <div class="container pt-5">
+        <div class="container pt-5 px-lg-5">
             <!-- Hero heading -->
-            <h1 class="text-primary-d">Love to hear from you</h1>
+            <h1 class="banner-slogan text-primary-d">Love to hear from you</h1>
             <!-- Address -->
             <div class="row mt-5">
                 <div class="col-12 col-md-4 mt-4">
