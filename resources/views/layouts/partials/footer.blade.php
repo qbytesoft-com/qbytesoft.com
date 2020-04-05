@@ -1,48 +1,47 @@
 <!-- Start footer section -->
 <footer class="clear">
     <div class="footer-top shadow-sm py-5 position-relative">
-        <div class="container">
-            <div class="row mt-5">
-                <!--Left Discription -->
-                <div class="col-md-8">
-                    <h1 class="font-weight-bold footer-top-title text-primary-d d-inline-block pt-3">We &#10084;<br>(open) source</h1>
-                    <p class="text-primary-d lead-sm mt-5">
-                        We are open source enthusiasts and love to work Laravel ecosystem. Mostly we use Laravel backend for the custom web application and CRM. Our <a target="_blank" href="{{ url('https://github.com/orgs/qbytesoft-com/people') }}">team members</a> amongst Web Developer on GitHub makes us confident.
-                    </p>
-                    <div class="learn-more mt-5 p-4">
-                        <h5 class="text-primary-d font-weight-bold">LOOK AT THIS</h5>
-                        <ul class="p-0 m-0 mt-4">
-                            <li class="list-style-none">
-                                <p class="lead-sm">
-                                    <i class="fas fa-chevron-right text-primary fa-xs"></i>
-                                    <a href="{{ route('qbytesoft.web-development') }}" class="text-primary-d">Laravel & Vue Application</a>
-                                </p>
-                            </li>
-                            <li class="list-style-none">
-                                <p class="lead-sm">
-                                    <i class="fas fa-chevron-right text-primary fa-xs"></i>
-                                    <a target="_blank" href="{{ url(config('qbytesoft.github')) }}" class="text-primary-d">Open source Collection</a>
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- Post card -->
-                <div class="postcard position-absolute d-none d-md-block">
-                    <a class="d-inline-block mb-5" title="postcard">
-                        <div class="postcard-image shadow px-3 pt-3 pb-5">
-                            <img src="{{ asset('qbytesoft/img/p3.jpg') }}" alt="post-card" class="w-50">
-                        </div>
-                    </a>
-                    <!--
-                    <div class="d-flex justify-content-start">
-                        <p class="mt-5 text-right small">Check out the <a href="#">postcards</a><br>we get from kind users all over the world.</p>
-                    </div>
-                    -->
-                </div>
+      <div class="container">
+        <div class="row my-5">
+          <!--Left Discription -->
+          <div class="col-lg-6">
+            <h1 class="font-weight-bold footer-top-title text-primary-d d-inline-block pt-3">We &#10084;<br>(open) source</h1>
+            <p class="text-primary-d lead-sm mt-5">
+                We are open source enthusiasts and love to work Laravel ecosystem. Mostly we use Laravel backend for the custom web application and CRM. Our <a target="_blank" href="{{ url('https://github.com/orgs/qbytesoft-com/people') }}">team members</a> amongst Web Developer on GitHub makes us confident.
+            </p>
+            <div class="learn-more mt-5 p-4">
+              <h5 class="text-primary-d font-weight-bold">LOOK AT THIS</h5>
+              <ul class="p-0 m-0 mt-4">
+                <li class="list-style-none">
+                  <p class="lead-sm">
+                    <i class="fas fa-chevron-right text-primary fa-xs"></i>
+                    <a href="{{ route('qbytesoft.web-development') }}" class="text-primary-d">Laravel & Vue Application</a>
+                  </p>
+                </li>
+                <li class="list-style-none">
+                  <p class="lead-sm">
+                    <i class="fas fa-chevron-right text-primary fa-xs"></i>
+                    <a href="{{ url(config('qbytesoft.github')) }}" class="text-primary-d">Open source Collection</a>
+                  </p>
+                </li>
+              </ul>
             </div>
+          </div>
+          <!-- Post card -->
+          <div class="postcard position-absolute d-none d-lg-block">
+            <a href="#" class="d-inline-block mb-5" title="postcard">
+                <div class="postcard-image shadow px-3 pt-3 pb-5">
+                    <img src="{{ asset('qbytesoft/img/p3.jpg') }}" alt="post-card" class="w-50">
+                </div>
+            </a>
+            <div class="d-flex justify-content-center w-50 nr-5">
+              <p class="mt-5 text-right">Check out the <a href="#">postcards</a><br>we get from kind users all over the world.</p>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
+    
     <!-- The footer -->
     <div class="the-footer py-5">
         <div class="container">
