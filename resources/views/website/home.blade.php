@@ -5,9 +5,9 @@
 @section('content')
     <!-- The hero section -->
     <div class="home-hero-section py-5">
-        <div class="container pt-5">
+        <div class="container pt-5 px-lg-5">
             <!-- Hero heading -->
-            <h1 class="text-primary-d">Got an Idea?<br> We'll make it real.</h1>
+            <h1 class="banner-slogan text-primary-d">Got an Idea?<br> We'll make it real.</h1>
             <p class="mt-3 text-primary-d lead">We do design and develop websites & web applications.<br>Expert in Laravel, React & Vue</p>
             <!-- LATEST INSIGHTS section
             <div class="lts-inst pt-5">
