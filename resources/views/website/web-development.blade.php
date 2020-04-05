@@ -7,10 +7,10 @@
 @section('content')
     <!-- The hero section -->
     <div class="web-dev-hero-section py-5">
-        <div class="container pt-5">
+        <div class="container pt-5 px-lg-5">
             <!-- Hero heading -->
-            <h1 class="text-primary-d m-0">Tailor-made</h1>
-            <h1 class="text-primary-d m-0">is achievable</h1>
+            <h1 class="banner-slogan text-primary-d m-0">Tailor-made</h1>
+            <h1 class="banner-slogan text-primary-d m-0">is achievable</h1>
 
             <p class="mt-3 text-primary-d lead m-0">You don't always have to start</p>
             <p class="text-primary-d lead m-0">from scratch</p>
