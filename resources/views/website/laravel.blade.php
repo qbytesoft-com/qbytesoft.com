@@ -7,10 +7,10 @@
 @section('content')
     <!-- The hero section -->
     <div class="laravel-hero-section py-5">
-        <div class="container pt-5">
+        <div class="container pt-5 px-lg-5">
             <!-- Hero heading -->
-            <h1 class="text-primary-d m-0">The Modern </h1>
-            <h1 class="text-primary-d m-0">Web Technology</h1>
+            <h1 class="banner-slogan text-primary-d m-0">The Modern </h1>
+            <h1 class="banner-slogan text-primary-d m-0">Web Technology</h1>
 
             <p class="mt-3 text-primary-d lead m-0">Our preferred tools to build</p>
             <p class="text-primary-d lead m-0">using Laravel, React & Vue</p>
