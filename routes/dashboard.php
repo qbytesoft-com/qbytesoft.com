@@ -6,4 +6,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-
+Route::group(['namespace' => 'Dashboard'], function (){
+   Route::get('/app','DashboardController@index')->name('dashboard.home');
+});
