@@ -15,16 +15,19 @@
       <div class="container pl-lg-5">
           <div class="collapse navbar-collapse h-100" id="collapsibleNavbar">
           <ul class="navbar-nav mt-4">
-            <li class="nav-item mr-lg-5 pr-xl-5">
+            <li class="nav-item mr-lg-5 pr-xl-4">
               <a class="nav-link active" href="{{ route('qbytesoft.home') }}">Home</a>
             </li>
-            <li class="nav-item mr-lg-5 pr-xl-5">
+            <li class="nav-item mr-lg-5 pr-xl-4">
               <a class="nav-link" href="{{ route('qbytesoft.web-development') }}">Web development</a>
             </li>
-            <li class="nav-item mr-lg-5 pr-xl-5">
+            <li class="nav-item mr-lg-5 pr-xl-4">
               <a class="nav-link" href="{{ route('qbytesoft.laravel') }}">Laravel</a>
             </li>
-            <li class="nav-item mr-lg-5 pr-xl-5">
+            <li class="nav-item mr-lg-5 pr-xl-4">
+              <a class="nav-link" href="{{ route('qbytesoft.shopify') }}">shopify</a>
+            </li>
+            <li class="nav-item mr-lg-5 pr-xl-4">
               <a class="nav-link" href="{{ route('qbytesoft.open-source') }}">Open source</a>
             </li>
             <li class="nav-item">

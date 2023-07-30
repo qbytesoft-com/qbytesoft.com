@@ -441,8 +441,16 @@ background: linear-gradient(120deg, #f55247, #FFFFFF);
 .clearfix:after {
   clear: both;
 }
-
-
+.contact__us{}
+.contact__us > p{
+    color: #004966 !important;
+}
+.background__image {}
+.background__image img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
@@ -458,11 +466,17 @@ background: linear-gradient(120deg, #f55247, #FFFFFF);
     }
     /* End navbar brand */
     .lead-sm{
-        font-size: 1.5rem!important;
+        font-size: 1.2rem!important;
     }
+    .lead-sm span svg{
+        fill: #95BF46;
+    }
+
     .home-hero-section h1,.laravel-hero-section h1,.web-dev-hero-section h1,.about-hero-section h1{
         font-size: 3rem!important;
     }
+
+
     /* Short description design Start    */
     .srt-des-item h5{
         padding-top: 10rem!important;

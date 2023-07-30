@@ -52,6 +52,7 @@
                         <a href="{{ route('qbytesoft.home') }}" class="active text-decoration-none"><p class="lead-sm">Home</p></a>
                         <a href="{{ route('qbytesoft.web-development') }}" class="text-decoration-none"><p class="lead-sm">Web development</p></a>
                         <a href="{{ route('qbytesoft.laravel') }}" class="text-decoration-none"><p class="lead-sm">Laravel</p></a>
+                        <a href="{{ route('qbytesoft.shopify') }}" class="text-decoration-none"><p class="lead-sm">Shopify</p></a>
                     </div>
                 </div>
                 <div class="col-md-6">

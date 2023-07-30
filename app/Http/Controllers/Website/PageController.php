@@ -26,6 +26,11 @@ class PageController extends Controller
         return view('website.laravel');
     }
 
+    public function shopify()
+    {
+        return view('website.shopify');
+    }
+
     public function openSource()
     {
         return view('website.open-source');
