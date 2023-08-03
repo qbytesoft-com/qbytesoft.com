@@ -35,7 +35,7 @@
                 </div>
             </a>
             <div class="d-flex justify-content-center w-50 nr-5">
-              <p class="mt-5 text-right">Check out the <a href="#">postcards</a><br>we get from kind users all over the world.</p>
+              <p style="color: #004966" class="mt-5 text-right">Check out the <a href="#">postcards</a><br>we get from kind users all over the world.</p>
             </div>
           </div>
         </div>

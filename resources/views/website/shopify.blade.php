@@ -42,7 +42,7 @@
                             <img src="{{ asset('qbytesoft/img/reactjs.svg') }}" loading="lazy" alt="laravel">
                         </div>
                         <!-- Description -->
-                        <h5 class="text-primary-d font-weight-bold mt-5 pt-5 mt-sm-0 pt-sm-0 text-uppercase">Custom store front design</h5>
+                        <h5 class="text-primary-d font-weight-bold mt-5 pt-5 mt-sm-0 pt-sm-0 text-uppercase">Custom Shopify themes and apps.</h5>
                         <p class="text-primary-d lead-sm w-100">
                             <!-- <a href="#">Vue.js</a> -->
                              Discover the perfect blend of creativity and functionality with our custom store front design services. Leveraging the power of <a href="#">Shopify</a> Headless and <a href="#">React</a>, we create captivating online shopping experiences tailored to your brand's unique identity. Enhance customer engagement, optimize performance, and unlock new possibilities for your e-commerce business with our innovative and responsive designs.
@@ -78,12 +78,11 @@ Shopify Store Performance Optimization
     <div class="container">
         <hr>
         <!-- All content -->
-        <div class="row">
+        <div class="row d-flex align-items-center ">
             <div class="col-6">
                 <div class="the-content mt-5 pt-sm-5">
                     <h3 class="text-primary-d font-weight-bold mb-4">Our Custom Shopify Services!</h3>
                    
-
                     <ul class="service_list list-group list-group-flush">
                         <li class="list-group-item text-primary-d lead-sm">
                         <span>
@@ -175,9 +174,10 @@ Shopify Store Performance Optimization
                 </div>
             </div>
         </div>
+
         <!-- Proof section -->
         <div class="learn-more my-5 p-5 d-flex flex-column flex-sm-row justify-content-between align-items-center">
-            <h1 class="text-primary-d font-weight-bold">Need <br>proof?</h1>
+            <h1 class="text-primary-d font-weight-bold">Need proof?</h1>
 
             <ul class="p-0 m-0 mt-4 mt-sm-0">
                 <!-- List item -->
@@ -207,23 +207,17 @@ Shopify Store Performance Optimization
         <!-- End proof section -->
 
         <!-- contact us section START  -->
-        <div class="row d-flex align-items-center position-relative">
-            <div class="background__image">
-                <img src="{{ asset('qbytesoft/img/video_call_monochromatic.png') }}" alt="call for details">
-            </div>
-
+        <div class="row d-flex align-items-center">
             <div class="col-md-7">
                 <div class="contact__us">
                     <h3 class="text-primary-d font-weight-bold mb-4">Top-Rated Shopify Plus Development Company</h3>
-                    <p>Are you looking for a&nbsp;<strong>Shopify Plus store development company to build an online store?</strong><br><br>We are a&nbsp;<strong>top Shopify Plus development agency</strong>&nbsp;with&nbsp;<strong>world-class Shopify Plus developers.</strong> Our trusted&nbsp;<strong>Shopify Plus developers</strong>&nbsp;excel in providing client-focused online Shopify stores that can generate large volume eCommerce business for you.
-
-                                </p>
+                    <p>Are you looking for a&nbsp;<strong>Shopify  store development company to build an online store?</strong><br><br>We are a&nbsp;<strong>top Shopify  development agency</strong>&nbsp;with&nbsp;<strong>world-class Shopify  developers.</strong> Our trusted&nbsp;<strong>Shopify  developers</strong>&nbsp;excel in providing client-focused online Shopify stores that can generate large volume eCommerce business for you.</p>
                 </div>
             </div>
             <div class="col-md-5">
                 <div class="card shadow-lg">
                     <div class="card-body">
-                        <h5 class="card-title text-primary-d font-weight-bold mb-4 text-center">Get A Free Quote</h5>
+                        <h5 class="card-title text-primary-d font-weight-bold mb-4 text-center text-capitalize">Let us engage in a discussion regarding your project</h5>
                         
                         <form>
                             <div class="form-group">
@@ -240,17 +234,16 @@ Shopify Store Performance Optimization
                             </div>
                             <div class="form-group">
                                 <label for="messageArea">Your message</label>
-                                <textarea class="form-control" id="messageArea" rows="3"></textarea>
+                                <textarea class="form-control" placeholder="Message" id="messageArea" rows="3"></textarea>
                             </div>
                             
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button type="submit" class="btn btn-info">Submit</button>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
         <!-- contact us section END  -->
-
 
     </div>
     <!-- Our technology -->

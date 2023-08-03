@@ -25,7 +25,7 @@
               <a class="nav-link" href="{{ route('qbytesoft.laravel') }}">Laravel</a>
             </li>
             <li class="nav-item mr-lg-5 pr-xl-4">
-              <a class="nav-link" href="{{ route('qbytesoft.shopify') }}">shopify</a>
+              <a class="nav-link" href="{{ route('qbytesoft.shopify') }}">Shopify</a>
             </li>
             <li class="nav-item mr-lg-5 pr-xl-4">
               <a class="nav-link" href="{{ route('qbytesoft.open-source') }}">Open source</a>

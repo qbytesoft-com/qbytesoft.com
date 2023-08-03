@@ -247,7 +247,7 @@ background: linear-gradient(120deg, #f55247, #FFFFFF);
     background: #393E3A!important;
 }
 .the-footer a, p {
-    color: #f7f7f7 !important;
+    color: #cacdce !important;
 }
 .footer-menu a,.social a,.adr a,.contact a,.footer-bootom-menu a{
     color: #f7f7f7!important;
@@ -442,15 +442,13 @@ background: linear-gradient(120deg, #f55247, #FFFFFF);
   clear: both;
 }
 .contact__us{}
+.contact__us h3{
+    font-size: 3rem !important;
+}
 .contact__us > p{
     color: #004966 !important;
 }
-.background__image {}
-.background__image img{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
