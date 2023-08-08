@@ -6,7 +6,7 @@
 
 @section('content')
      <!-- The hero section -->
-    <div class="laravel-hero-section py-5">
+    <div class="shopify-hero-section py-5">
         <div class="container pt-5 px-lg-5">
             <!-- Hero heading -->
             <h1 class="banner-slogan text-primary-d m-0">We help companies with  </h1>
@@ -14,6 +14,7 @@
 
             <p class="mt-3 text-primary-d lead m-0">As a Shopify agency we are working on client projects, </p>
             <p class="text-primary-d lead m-0">official Shopify Templates and cloneables for the Shopify community.</p>
+            <a href="#contact__us " class="btn btn-info text-white mt-4 btn-lg">Contact us</a>
             <!-- Start short description -->
             <div class="srt-des pt-5 my-sm-5">
                 <div class="row">
@@ -56,24 +57,6 @@
     </div>
     <!-- End hero section -->
 
-    <!-- 
-
-Shopify store setup
-Shopify store development
-Custom shopify app development
-Custom store front design (Shopify Headless + React)
-
-Shopify SEO and speed optimization
-Figma design to shopify development
-
-Shopify Theme Customization
-
-Shopify Store Migration
-Shopify Store Management
-Shopify Store Performance Optimization
-
-
-     -->
 
     <div class="container">
         <hr>
@@ -81,7 +64,7 @@ Shopify Store Performance Optimization
         <div class="row d-flex align-items-center ">
             <div class="col-6">
                 <div class="the-content mt-5 pt-sm-5">
-                    <h3 class="text-primary-d font-weight-bold mb-4">Our Custom Shopify Services!</h3>
+                    <h3 class="text-primary-d font-weight-bold mb-4">Our Custom Laravel Services!</h3>
                    
                     <ul class="service_list list-group list-group-flush">
                         <li class="list-group-item text-primary-d lead-sm">
@@ -164,8 +147,6 @@ Shopify Store Performance Optimization
                         
                         Shopify Store Performance Optimization</li>
                     </ul>
-
-
                 </div>
             </div>
             <div class="col-6">
@@ -182,22 +163,22 @@ Shopify Store Performance Optimization
             <ul class="p-0 m-0 mt-4 mt-sm-0">
                 <!-- List item -->
                 <li class="list-style-none">
-                    <p class="lead-sm">
-                        <i class="fas fa-chevron-right text-primary fa-xs"></i>
+                    <p class="lead-sm shopify">
+                        <i class="fas fa-chevron-right  fa-xs"></i>
                         <a href="#" class="text-primary-d">Our open source work</a>
                     </p>
                 </li>
                 <!-- List item -->
                 <li class="list-style-none">
-                    <p class="lead-sm">
-                        <i class="fas fa-chevron-right text-primary fa-xs"></i>
+                    <p class="lead-sm shopify">
+                        <i class="fas fa-chevron-right  fa-xs"></i>
                         <a href="#" class="text-primary-d">Top ranking on GitHub</a>
                     </p>
                 </li>
                 <!-- List item -->
                 <li class="list-style-none">
-                    <p class="lead-sm">
-                        <i class="fas fa-chevron-right text-primary fa-xs"></i>
+                    <p class="lead-sm shopify">
+                        <i class="fas fa-chevron-right  fa-xs"></i>
                         <a href="#" class="text-primary-d">A skilled team</a>
                     </p>
                 </li>
@@ -207,7 +188,7 @@ Shopify Store Performance Optimization
         <!-- End proof section -->
 
         <!-- contact us section START  -->
-        <div class="row d-flex align-items-center">
+        <div id="contact__us" class=" row d-flex align-items-center">
             <div class="col-md-7">
                 <div class="contact__us">
                     <h3 class="text-primary-d font-weight-bold mb-4">Top-Rated Shopify Plus Development Company</h3>
@@ -217,7 +198,7 @@ Shopify Store Performance Optimization
             <div class="col-md-5">
                 <div class="card shadow-lg">
                     <div class="card-body">
-                        <h5 class="card-title text-primary-d font-weight-bold mb-4 text-center text-capitalize">Let us engage in a discussion regarding your project</h5>
+                        <h5 class="card-title text-primary-d font-weight-bold mb-4 text-center text-monospace font-weight-bold">Let us engage in a discussion regarding your project</h5>
                         
                         <form>
                             <div class="form-group">

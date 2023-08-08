@@ -12,16 +12,18 @@
             <h1 class="banner-slogan text-primary-d m-0">Tailor-made</h1>
             <h1 class="banner-slogan text-primary-d m-0">is achievable</h1>
 
-            <p class="mt-3 text-primary-d lead m-0">You don't always have to start</p>
-            <p class="text-primary-d lead m-0">from scratch</p>
-           
+            <p class="mt-3 text-primary-d lead m-0">let's check our shopify products</p>
+
             <a href="#contact__us " class="btn btn-info text-white mt-4 btn-lg">Contact us</a>
+            
             <!-- Our strength start -->
             <div class="our-strength mt-5 pt-sm-5">
-                <h3 class="text-primary-d font-weight-bold mb-4">Our strength</h3>
-                <p class="text-primary-d lead-sm">Tailor-made web development is what we do best. We love every new challenge as the next, and try to extract common patterns.</p>
-                <p class="text-primary-d lead-sm">This has left us with a collection of <a href="#">solid building blocks</a> to play with, plus a sense of what makes a web project great.</p>
-                <p class="text-primary-d lead-sm">Moreover, we can lean on the shoulders of frameworks like <a href="#">Laravel & Vue</a> to take giant leaps.</p>
+                <!-- <h3 class="text-primary-d font-weight-bold mb-4">Our strength</h3> -->
+                <p class="text-primary-d lead-sm">Connect your customer using Facebook Messenger Chat. Good support can help increase product sales.</p>
+
+                <p class="text-primary-d lead-sm">Connect your Facebook Page's Messenger with just a few clicks.</p>
+                <p class="text-primary-d lead-sm">Engage with your customers instantly, and address their concerns.</p>
+                <p class="text-primary-d lead-sm">Real time Facebook Messenger Bubble customization using native configuration.</p>
             </div>
             <!-- Our strength End -->
         </div>
@@ -33,7 +35,7 @@
 
             <!-- Start how we work section -->
             <div class="how-we-work">
-                <h3 class="text-primary-d font-weight-bold mb-4">How we work</h3>
+                <h3 class="text-primary-d font-weight-bold mb-4">How it works</h3>
                 <div class="row mt-5">
                     <!-- Working step1 -->
                     <div class="col-sm-6 col-lg-4 mt-3 mt-lg-0">
@@ -132,8 +134,6 @@
                 <h1 class="text-light font-weight-bold">It's <a href="#" class="text-light">time to talk</a></h1>
             </div>
             <!-- Banner end -->
-
-
         <!-- contact us section START  -->
         <div id="contact__us" class=" row d-flex align-items-center">
             <div class="col-md-7">

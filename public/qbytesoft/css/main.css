@@ -16,6 +16,7 @@
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    scroll-behavior: smooth;
 }
 
 /*
@@ -167,7 +168,7 @@ a,.link-color{
 /* Navber design end */
 
 /* Main section design start */
-.home-hero-section,.laravel-hero-section,.web-dev-hero-section,.about-hero-section{
+.home-hero-section,.laravel-hero-section,.shopify-hero-section, .web-dev-hero-section,.about-hero-section{
     min-height: 500px;
     background: url(../img/cover/optbg1.jpg);
     background-color: linear-gradient(to top,#ffffff,rgba(255, 255, 255, 0));
@@ -178,9 +179,13 @@ a,.link-color{
 .banner-slogan{
     font-family: Chronicle Display A,serif;
 }
+.shopify-hero-section{
+    /*background-image: url(../img/cover/laravel.jpg);*/
+background: linear-gradient(120deg, #96bf48, #FFFFFF);
+}
 .laravel-hero-section{
     /*background-image: url(../img/cover/laravel.jpg);*/
-background: linear-gradient(120deg, #f55247, #FFFFFF);
+background: linear-gradient(120deg, #F05340, #FFFFFF);
 }
 .web-dev-hero-section{
     background-image: url(../img/cover/optbg2.jpg);
@@ -188,7 +193,7 @@ background: linear-gradient(120deg, #f55247, #FFFFFF);
 .about-hero-section{
     background-image: url(../img/cover/team.jpg);
 }
-.home-hero-section h1,.laravel-hero-section h1,.web-dev-hero-section h1,.about-hero-section h1{
+.home-hero-section h1,.laravel-hero-section h1,.shopify-hero-section h1, .web-dev-hero-section h1,.about-hero-section h1{
     font-size: 2rem!important;
     font-weight: bold;
 }
@@ -449,6 +454,18 @@ background: linear-gradient(120deg, #f55247, #FFFFFF);
     color: #004966 !important;
 }
 
+
+/* need proof */
+.shopify i.fas{
+    color: #96bf48;
+}
+.laravel i.fas{
+    color: #F05340;
+}
+.btn-laravel{
+background-color: #F05340;
+}
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
@@ -469,8 +486,12 @@ background: linear-gradient(120deg, #f55247, #FFFFFF);
     .lead-sm span svg{
         fill: #95BF46;
     }
+    .laravel-icon span svg{
+        fill: #F05340;
+    }
 
-    .home-hero-section h1,.laravel-hero-section h1,.web-dev-hero-section h1,.about-hero-section h1{
+
+    .home-hero-section h1,.laravel-hero-section h1,.shopify-hero-section h1, .web-dev-hero-section h1,.about-hero-section h1{
         font-size: 3rem!important;
     }
 
@@ -508,7 +529,7 @@ background: linear-gradient(120deg, #f55247, #FFFFFF);
     .lead{
         font-size: 2rem!important;
     }
-    .home-hero-section h1,.laravel-hero-section h1,.web-dev-hero-section h1,.about-hero-section h1{
+    .home-hero-section h1,.laravel-hero-section h1,.shopify-hero-section h1, .web-dev-hero-section h1,.about-hero-section h1{
         font-size: 5rem!important;
     }
 }

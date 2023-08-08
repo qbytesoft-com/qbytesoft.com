@@ -14,6 +14,7 @@
 
             <p class="mt-3 text-primary-d lead m-0">Our preferred tools to build</p>
             <p class="text-primary-d lead m-0">using Laravel, React & Vue</p>
+            <a href="#contact__us " class="btn btn-laravel text-white mt-4 btn-lg">Contact us</a>
             <!-- Start short description -->
             <div class="srt-des pt-5 my-sm-5">
                 <div class="row">
@@ -46,6 +47,8 @@
             <!-- End short description -->
         </div>
     </div>
+
+
     <!-- End hero section -->
     <div class="container">
         <hr>
@@ -53,10 +56,58 @@
         <div class="row">
             <div class="col-6">
                 <div class="the-content mt-5 pt-sm-5">
-                    <h3 class="text-primary-d font-weight-bold mb-4">Our greenhouse</h3>
-                    <p class="text-primary-d lead-sm">We are truly a household name in the community, having contributed over <a href="">269 building blocks.</a> Our packages have been downloaded more than 50 million times by peer developers.</p>
-                    <p class="text-primary-d lead-sm">The many contributions, conference talks and top ranking amongst PHP developers are proof of our dedication to the Laravel ecosystem, and even more: to web development in general.</p>
-
+                    <h3 class="text-primary-d font-weight-bold mb-4">Our Custom Shopify Services!</h3>
+                   
+                    <ul class="service_list list-group list-group-flush">
+                        <li class="list-group-item text-primary-d lead-sm laravel-icon">
+                        <span>
+                            <svg width="14" height="10" viewBox="0 0 14 10" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.94966 7.07127L1.76769 3.8893C1.57243 3.69403 1.25585 3.69403 1.06058 3.8893L0.353478 4.5964C0.158216 4.79167 0.158216 5.10825 0.353478 5.30351L4.59612 9.54615C4.79138 9.74141 5.10796 9.74141 5.30323 9.54615L6.01033 8.83904C6.01129 8.83808 6.01225 8.83712 6.0132 8.83615L13.0814 1.76794C13.2767 1.57267 13.2767 1.25609 13.0814 1.06083L12.3743 0.353722C12.179 0.15846 11.8625 0.15846 11.6672 0.353722L4.94966 7.07127Z"></path>
+                            </svg>
+                        </span>    
+                       Custom Laravel development</li>
+                        <li class="list-group-item text-primary-d lead-sm laravel-icon">
+                            <span>
+                            <svg width="14" height="10" viewBox="0 0 14 10" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.94966 7.07127L1.76769 3.8893C1.57243 3.69403 1.25585 3.69403 1.06058 3.8893L0.353478 4.5964C0.158216 4.79167 0.158216 5.10825 0.353478 5.30351L4.59612 9.54615C4.79138 9.74141 5.10796 9.74141 5.30323 9.54615L6.01033 8.83904C6.01129 8.83808 6.01225 8.83712 6.0132 8.83615L13.0814 1.76794C13.2767 1.57267 13.2767 1.25609 13.0814 1.06083L12.3743 0.353722C12.179 0.15846 11.8625 0.15846 11.6672 0.353722L4.94966 7.07127Z"></path>
+                            </svg>
+                        </span> 
+                        
+                       Laravel development outsourcing</li>
+                        <li class="list-group-item text-primary-d lead-sm laravel-icon">
+                            <span>
+                            <svg width="14" height="10" viewBox="0 0 14 10" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.94966 7.07127L1.76769 3.8893C1.57243 3.69403 1.25585 3.69403 1.06058 3.8893L0.353478 4.5964C0.158216 4.79167 0.158216 5.10825 0.353478 5.30351L4.59612 9.54615C4.79138 9.74141 5.10796 9.74141 5.30323 9.54615L6.01033 8.83904C6.01129 8.83808 6.01225 8.83712 6.0132 8.83615L13.0814 1.76794C13.2767 1.57267 13.2767 1.25609 13.0814 1.06083L12.3743 0.353722C12.179 0.15846 11.8625 0.15846 11.6672 0.353722L4.94966 7.07127Z"></path>
+                            </svg>
+                        </span> 
+                        
+                        Laravel web development</li>
+                        <li class="list-group-item text-primary-d lead-sm laravel-icon">
+                        
+                        <span>
+                            <svg width="14" height="10" viewBox="0 0 14 10" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.94966 7.07127L1.76769 3.8893C1.57243 3.69403 1.25585 3.69403 1.06058 3.8893L0.353478 4.5964C0.158216 4.79167 0.158216 5.10825 0.353478 5.30351L4.59612 9.54615C4.79138 9.74141 5.10796 9.74141 5.30323 9.54615L6.01033 8.83904C6.01129 8.83808 6.01225 8.83712 6.0132 8.83615L13.0814 1.76794C13.2767 1.57267 13.2767 1.25609 13.0814 1.06083L12.3743 0.353722C12.179 0.15846 11.8625 0.15846 11.6672 0.353722L4.94966 7.07127Z"></path>
+                            </svg>
+                        </span> 
+                       Migration to Laravel</li>
+                        <li class="list-group-item text-primary-d lead-sm laravel-icon">
+                            <span>
+                            <svg width="14" height="10" viewBox="0 0 14 10" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.94966 7.07127L1.76769 3.8893C1.57243 3.69403 1.25585 3.69403 1.06058 3.8893L0.353478 4.5964C0.158216 4.79167 0.158216 5.10825 0.353478 5.30351L4.59612 9.54615C4.79138 9.74141 5.10796 9.74141 5.30323 9.54615L6.01033 8.83904C6.01129 8.83808 6.01225 8.83712 6.0132 8.83615L13.0814 1.76794C13.2767 1.57267 13.2767 1.25609 13.0814 1.06083L12.3743 0.353722C12.179 0.15846 11.8625 0.15846 11.6672 0.353722L4.94966 7.07127Z"></path>
+                            </svg>
+                        </span> 
+                        
+                      Integration with third-party APIs</li>
+                        <li class="list-group-item text-primary-d lead-sm laravel-icon">
+                            <span>
+                            <svg width="14" height="10" viewBox="0 0 14 10" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.94966 7.07127L1.76769 3.8893C1.57243 3.69403 1.25585 3.69403 1.06058 3.8893L0.353478 4.5964C0.158216 4.79167 0.158216 5.10825 0.353478 5.30351L4.59612 9.54615C4.79138 9.74141 5.10796 9.74141 5.30323 9.54615L6.01033 8.83904C6.01129 8.83808 6.01225 8.83712 6.0132 8.83615L13.0814 1.76794C13.2767 1.57267 13.2767 1.25609 13.0814 1.06083L12.3743 0.353722C12.179 0.15846 11.8625 0.15846 11.6672 0.353722L4.94966 7.07127Z"></path>
+                            </svg>
+                        </span> 
+                        
+                       Laravel cloud development</li>
+                        
+                    </ul>
 
                 </div>
             </div>
@@ -68,33 +119,73 @@
         </div>
         <!-- Proof section -->
         <div class="learn-more my-5 p-5 d-flex flex-column flex-sm-row justify-content-between align-items-center">
-            <h1 class="text-primary-d font-weight-bold">Need <br>proof?</h1>
+            <h1 class="text-primary-d font-weight-bold">Need proof?</h1>
 
             <ul class="p-0 m-0 mt-4 mt-sm-0">
                 <!-- List item -->
                 <li class="list-style-none">
-                    <p class="lead-sm">
-                        <i class="fas fa-chevron-right text-primary fa-xs"></i>
+                    <p class="lead-sm laravel">
+                        <i class="fas fa-chevron-right  fa-xs"></i>
                         <a href="#" class="text-primary-d">Our open source work</a>
                     </p>
                 </li>
                 <!-- List item -->
                 <li class="list-style-none">
-                    <p class="lead-sm">
-                        <i class="fas fa-chevron-right text-primary fa-xs"></i>
+                    <p class="lead-sm laravel">
+                        <i class="fas fa-chevron-right  fa-xs"></i>
                         <a href="#" class="text-primary-d">Top ranking on GitHub</a>
                     </p>
                 </li>
                 <!-- List item -->
                 <li class="list-style-none">
-                    <p class="lead-sm">
-                        <i class="fas fa-chevron-right text-primary fa-xs"></i>
+                    <p class="lead-sm laravel">
+                        <i class="fas fa-chevron-right  fa-xs"></i>
                         <a href="#" class="text-primary-d">A skilled team</a>
                     </p>
                 </li>
             </ul>
         </div>
         <!-- End proof section -->
+                <!-- contact us section START  -->
+        <div id="contact__us" class=" row d-flex align-items-center">
+            <div class="col-md-7">
+                <div class="contact__us">
+                    <h3 class="text-primary-d font-weight-bold mb-4">Looking for the right solution for a new business?</h3>
+               
+
+                    <p> <strong>Laravel</strong> is built on a component-based system and composer-driven approach. It is suitable for both monolithic and micro-services apps (Lumen). <strong>Laravel</strong> is highly suitable for any kind of business application from <strong>eCommerce</strong> to <strong>CRM software</strong> , from CMS to <strong>SaaS-based</strong> apps. Loads of packages are inbuilt in the core of <strong>Laravel</strong> that makes development lighting fast and easy to scale.</p>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="card shadow-lg">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary-d font-weight-bold mb-4 text-center text-monospace font-weight-bold">Let us engage in a discussion regarding your project</h5>
+                        
+                        <form>
+                            <div class="form-group">
+                                <label for="full-name">Your Name </label>
+                                <input type="text" class="form-control" id="full-name" aria-describedby="name" placeholder="Enter your Nname">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone-number">Your Phone Number</label>
+                                <input type="tel" class="form-control" id="phone-number"  placeholder="Enter phone number">
+                            </div>
+                            <div class="form-group">
+                                <label for="emailAddress">Email address</label>
+                                <input type="email" class="form-control" id="emailAddress" placeholder="Enter email">
+                            </div>
+                            <div class="form-group">
+                                <label for="messageArea">Your message</label>
+                                <textarea class="form-control" placeholder="Message" id="messageArea" rows="3"></textarea>
+                            </div>
+                            
+                                <button type="submit" class="btn btn-laravel text-white">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- contact us section END  -->
     </div>
     <!-- Our technology -->
     <div class="our-technology py-5">

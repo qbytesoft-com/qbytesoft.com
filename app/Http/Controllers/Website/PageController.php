@@ -30,6 +30,10 @@ class PageController extends Controller
     {
         return view('website.shopify');
     }
+    public function product()
+    {
+        return view('website.product');
+    }
 
     public function openSource()
     {

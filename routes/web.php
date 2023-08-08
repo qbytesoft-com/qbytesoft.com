@@ -8,6 +8,7 @@ Route::namespace('Website')->group(function (){
     Route::get('/open-source','PageController@openSource')->name('qbytesoft.open-source');
     Route::get('/laravel','PageController@laravel')->name('qbytesoft.laravel');
     Route::get('/shopify','PageController@shopify')->name('qbytesoft.shopify');
+    Route::get('/product','PageController@product')->name('qbytesoft.product');
     Route::get('/about','PageController@about')->name('qbytesoft.about');
 });
 

@@ -58,6 +58,7 @@
                 <div class="col-md-6">
                     <!-- Footer menu -->
                     <div class="footer-menu d-flex flex-column flex-lg-row justify-content-lg-around">
+                        <a href="{{ route('qbytesoft.product') }}" class="text-decoration-none"><p class="lead-sm">Product</p></a>
                         <a href="{{ route('qbytesoft.open-source') }}" class="text-decoration-none"><p class="lead-sm">Open source</p></a>
                         <a href="{{ route('qbytesoft.about') }}" class="text-decoration-none"><p class="lead-sm">About us</p></a>
                     </div>
