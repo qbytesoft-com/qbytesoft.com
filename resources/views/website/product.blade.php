@@ -33,6 +33,16 @@
         <!-- All content -->
         <div class="the-content mt-5">
 
+        <!-- 
+
+
+        How it works:
+1. Login with an individual Facebook page.
+2. Enable Facebook messenger bubble.
+3. Start communicating with your customers.
+
+
+         -->
             <!-- Start how we work section -->
             <div class="how-we-work">
                 <h3 class="text-primary-d font-weight-bold mb-4">How it works</h3>
@@ -40,8 +50,8 @@
                     <!-- Working step1 -->
                     <div class="col-sm-6 col-lg-4 mt-3 mt-lg-0">
                         <div class="work-step">
-                            <h4 class="text-primary-d font-weight-bold text-uppercase">1. STEP BACK</h4>
-                            <p class="text-primary-d">It doesn't hurt to get a second opinion. If we question everything we might be able to re(de)fine your situation.</p>
+                            <h4 class="text-primary-d font-weight-bold text-uppercase">1. STEP ONE</h4>
+                            <p class="text-primary-d"> Login with an individual Facebook page.</p>
                         </div>
                     </div>
                     <!-- Process1 -->
@@ -53,9 +63,9 @@
                     <!-- Working step2 -->
                     <div class="col-sm-6 col-lg-4 d-none d-lg-block"></div>
                     <div class="col-sm-6 col-lg-4 mt-3 mt-lg-5">
-                        <div class="work-step">
-                            <h4 class="text-primary-d font-weight-bold text-uppercase">2. LOOK AROUND</h4>
-                            <p class="text-primary-d">A lot has been done before. We really need to look at other examples, opinions & competitors to understand what makes them great.</p>
+                        <div class="work-step" style="visibility: hidden;">
+                            <h4 class="text-primary-d font-weight-bold text-uppercase">2. STEP TWO</h4>
+                            <p class="text-primary-d">Enable Facebook messenger bubble.</p>
                         </div>
                     </div>
                     <!-- Process2 -->
@@ -68,14 +78,14 @@
                     <!-- Working step3 -->
                     <div class="col-sm-6 col-lg-4 mt-3 mt-lg-5">
                         <div class="work-step">
-                            <h4 class="text-primary-d font-weight-bold text-uppercase">3. TAKE A STAND</h4>
-                            <p class="text-primary-d">What will be your unique voice? Let's focus on your content and core functionality first, and start from there.</p>
+                            <h4 class="text-primary-d font-weight-bold text-uppercase">2. STEP TWO</h4>
+                            <p class="text-primary-d">Enable Facebook messenger bubble.</p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-lg-4 d-none d-lg-block"></div>
                     <!-- Working step4 -->
                     <div class="col-sm-6 col-lg-4 mt-3 mt-lg-5">
-                        <div class="work-step">
+                        <div class="work-step"  style="visibility: hidden;">
                             <h4 class="text-primary-d font-weight-bold text-uppercase">4. WRITE IT DOWN</h4>
                             <p class="text-primary-d">We'd have to agree on what to build exactly. We blueprint every screen and propose our technical solution. Your feedback only makes these better.</p>
                         </div>
@@ -83,9 +93,9 @@
                     <div class="col-sm-6 col-lg-4 d-none d-lg-block"></div>
                     <!-- Working step5 -->
                     <div class="col-sm-6 col-lg-4 mt-3 mt-lg-5">
-                        <div class="work-step">
-                            <h4 class="text-primary-d font-weight-bold text-uppercase">5. BUILD WITH SENSE</h4>
-                            <p class="text-primary-d">With the plans laid out, we design a tasteful but functional interface. In the back, we code with modern best practices in PHP development.</p>
+                        <div class="work-step" >
+                            <h4 class="text-primary-d font-weight-bold text-uppercase">3. STEP THREE</h4>
+                            <p class="text-primary-d">Start communicating with your customers.</p>
                         </div>
                     </div>
                     <!-- Process3 -->
@@ -95,21 +105,21 @@
                         </div>
                     </div>
                     <!-- Process4 -->
-                    <div class="col-sm-6 col-lg-4 position-relative d-none d-lg-block">
+                    <!-- <div class="col-sm-6 col-lg-4 position-relative d-none d-lg-block">
                         <div class="work-process4 position-absolute">
                             <img src="{{ asset('qbytesoft/img/process-04.svg') }}" loading="lazy" alt="process4" class="w-100">
                         </div>
-                    </div>
+                    </div> -->
                     <!-- Working step6 -->
-                    <div class="col-sm-6 col-lg-4 mt-3 mt-lg-5">
+                    <!-- <div class="col-sm-6 col-lg-4 mt-3 mt-lg-5">
                         <div class="work-step">
                             <h4 class="text-primary-d font-weight-bold text-uppercase">6. TEST IT THROUGH</h4>
                             <p class="text-primary-d">Things are starting to come together. Let's make sure that nothing breaks or slows down. Let's check all devices and circumstances.</p>
                         </div>
-                    </div>
-                    <div class="col-sm-6 col-lg-4 d-none d-lg-block"></div>
+                    </div> -->
+                    <!-- <div class="col-sm-6 col-lg-4 d-none d-lg-block"></div> -->
                     <!-- Working step7 -->
-                    <div class="col-sm-6 col-lg-4 mt-3 mt-lg-5 position-relative">
+                    <!-- <div class="col-sm-6 col-lg-4 mt-3 mt-lg-5 position-relative">
                         <div class="work-process6 position-absolute d-none d-lg-block">
                             <img src="{{ asset('qbytesoft/img/process-06.svg') }}" loading="lazy" alt="process6" class="w-100">
                         </div>
@@ -117,13 +127,13 @@
                             <h4 class="text-primary-d font-weight-bold text-uppercase">7. FOLLOW UP</h4>
                             <p class="text-primary-d">Accuse us of job protection, but our most successful projects are never finished. Maintenance and further improvements are key for any online project.</p>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- Process5 -->
-                    <div class="col-sm-6 col-md-8 position-relative d-none d-lg-block">
+                    <!-- <div class="col-sm-6 col-md-8 position-relative d-none d-lg-block">
                         <div class="work-process5 position-absolute">
                             <img src="{{ asset('qbytesoft/img/process-05.svg') }}" loading="lazy" alt="process5" class="w-100">
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <!-- End how we work section -->
