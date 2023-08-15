@@ -50,7 +50,7 @@
 </main>
 @yield('footer')
 <!-- Main section end -->
-<script src="{{ asset('qbytesoft/js/vendor/jquery-3.3.1.min.js') }}"></script>
+<script src="{{ asset('qbytesoft/js/vendor/jquery-3.7.0.min.js') }}"></script>
 <script src="{{ asset('qbytesoft/js/vendor/bootstrap.min.js') }}"></script>
 <script src="{{ asset('qbytesoft/js/plugins.js') }}"></script>
 <script src="{{ asset('qbytesoft/js/main.js') }}"></script>
