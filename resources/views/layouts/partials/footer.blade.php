@@ -7,7 +7,7 @@
           <div class="col-lg-6">
             <h1 class="font-weight-bold footer-top-title text-primary-d d-inline-block pt-3">We &#10084;<br>(open) source</h1>
             <p class="text-primary-d lead-sm mt-5">
-                We are open source enthusiasts and love to work Laravel ecosystem. Mostly we use Laravel backend for the custom web application and CRM. Our <a target="_blank" href="{{ url('https://github.com/orgs/qbytesoft-com/people') }}">team members</a> amongst Web Developer on GitHub makes us confident.
+                We are open source enthusiasts and love to work Shopify ecosystem. Mostly we use Shopify backend for the custom web application and CRM. Our <a target="_blank" href="{{ url('https://github.com/orgs/qbytesoft-com/people') }}">team members</a> amongst Web Developer on GitHub makes us confident.
             </p>
             <div class="learn-more mt-5 p-4">
               <h5 class="text-primary-d font-weight-bold">LOOK AT THIS</h5>
@@ -15,7 +15,7 @@
                 <li class="list-style-none">
                   <p class="lead-sm">
                     <i class="fas fa-chevron-right text-primary fa-xs"></i>
-                    <a href="{{ route('qbytesoft.web-development') }}" class="text-primary-d">Laravel & Vue Application</a>
+                    <a href="{{ route('qbytesoft.web-development') }}" class="text-primary-d">Shopify & React.js Application</a>
                   </p>
                 </li>
                 <li class="list-style-none">

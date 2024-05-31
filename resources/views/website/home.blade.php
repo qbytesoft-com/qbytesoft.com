@@ -7,8 +7,8 @@
     <div class="home-hero-section py-5">
         <div class="container pt-5 px-lg-5">
             <!-- Hero heading -->
-            <h1 class="banner-slogan text-primary-d">Got an Idea?<br> We'll make it real.</h1>
-            <p class="mt-3 text-primary-d lead">We do design and develop websites & web applications.<br>Expert in Laravel, React & Vue</p>
+            <h1 class="banner-slogan text-primary-d">Your Complete Development Partner<br> We Handle Every Phase of Your Project.</h1>
+            <p class="mt-3 text-primary-d lead">Empowering Your Vision with Shopify and React.js <br> Our Dedicated Team Makes Your Goals Our Mission, Delivering Exceptional Results Every Step of the Way.</p>
             <!-- LATEST INSIGHTS section
             <div class="lts-inst pt-5">
                 <div class="row mt-5 d-flex align-items-end">
@@ -140,14 +140,15 @@
     </div>
     <!-- End banner -->
     <!-- Start clients section -->
+    <!-- 
     <div class="client-section py-5">
         <div class="container d-flex flex-column align-items-center">
-            <!-- The title -->
+           
             <a href="#" class="text-primary-d d-inline-block"><h5 class="font-weight-bold">CLIENTS WE WORK WITH</h5></a>
-            <!-- Clients brand logo -->
+            
             <div class="clients mt-5">
                 <div class="row">
-                    <!-- Client -->
+                    
                     <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
                         <div class="card border-0">
                             <div class="card-body bg-dark p-5 d-flex justify-content-center align-items-center">
@@ -155,7 +156,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Client -->
+                    
                     <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
                         <div class="card border-0">
                             <div class="card-body bg-dark p-5 d-flex justify-content-center align-items-center">
@@ -163,7 +164,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Client -->
+                    
                     <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
                         <div class="card border-0">
                             <div class="card-body bg-dark p-5 d-flex justify-content-center align-items-center">
@@ -171,7 +172,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Client -->
+                    
                     <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
                         <div class="card border-0">
                             <div class="card-body bg-dark p-5 d-flex justify-content-center align-items-center">
@@ -179,7 +180,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Client -->
+                    
                     <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
                         <div class="card border-0">
                             <div class="card-body bg-dark p-5 d-flex justify-content-center align-items-center">
@@ -187,7 +188,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Client -->
+                    
                     <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
                         <div class="card border-0">
                             <div class="card-body bg-dark p-5 d-flex justify-content-center align-items-center">
@@ -195,7 +196,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Client -->
+                    
                     <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
                         <div class="card border-0">
                             <div class="card-body bg-dark p-5 d-flex justify-content-center align-items-center">
@@ -203,7 +204,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Client -->
+                    
                     <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
                         <div class="card border-0">
                             <div class="card-body bg-dark p-5 d-flex justify-content-center align-items-center">
@@ -215,6 +216,7 @@
             </div>
         </div>
     </div>
+     -->
     <!-- End clients section -->
 @endsection
 
