@@ -7,12 +7,11 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
-
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
 
-   html {
+html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
@@ -95,265 +94,289 @@ textarea {
     padding: 0.2em 0;
 }
 
-
-
-
- /* ==========================================================================
+/* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body{
-    background: #fff!important;
-    font-family: 'Open Sans', sans-serif!important;
+body {
+    background: #fff !important;
+    font-family: "Open Sans", sans-serif !important;
 }
 /* Custom classes */
-.c-container{
-    width: 91%!important;
-    margin: auto!important;
+.c-container {
+    width: 91% !important;
+    margin: auto !important;
 }
-.clear{
-    overflow: hidden!important;
+.clear {
+    overflow: hidden !important;
 }
-.lead-sm{
-    font-size: 1.2rem!important;
+.lead-sm {
+    font-size: 1.2rem !important;
 }
-.d-content{
-    display: contents!important;
+.d-content {
+    display: contents !important;
 }
-.img-size{
-    object-fit: contain!important;
-    object-position: center!important;
+.img-size {
+    object-fit: contain !important;
+    object-position: center !important;
 }
-.bg-white{
-    background: white!important;
+.bg-white {
+    background: white !important;
 }
-.text-primary-d{
-    color: #172A3D!important;;
+.text-primary-d {
+    color: #172a3d !important;
 }
-.text-primary-l{
-    color: #f7f7f7!important;;
+.text-primary-l {
+    color: #f7f7f7 !important;
 }
 
-.text-danger-c{
-    color: #B95661!important;
+.text-danger-c {
+    color: #b95661 !important;
 }
-.text-gray{
-    color: #767575!important;
+.text-gray {
+    color: #767575 !important;
 }
-.list-style-none{
-    list-style: none!important;
+.list-style-none {
+    list-style: none !important;
 }
-a:hover{
-    opacity: 0.7!important;
+a:hover {
+    opacity: 0.7 !important;
 }
 
 /* Customize bootstrap classes */
-a,.link-color{
-    color: #197593!important;
+a,
+.link-color {
+    color: #197593 !important;
 }
 /* Navber design start */
-.navbar-brand{
+.navbar-brand {
     width: 10rem;
 }
-.nav-item > .active,.footer-menu > .active{
-    font-weight: bold!important;
+.nav-item > .active,
+.footer-menu > .active {
+    font-weight: bold !important;
 }
-.nav-link{
+.nav-link {
     font-size: 1.1rem;
-    color: #2B809B!important;
+    color: #2b809b !important;
 }
-.nav-link:hover{
-    color: #004966!important;
+.nav-link:hover {
+    color: #004966 !important;
 }
 /* Navber design end */
 
 /* Main section design start */
-.home-hero-section,.laravel-hero-section,.web-dev-hero-section,.about-hero-section{
+.home-hero-section,
+.laravel-hero-section,
+.web-dev-hero-section,
+.about-hero-section {
     min-height: 500px;
     background: url(../img/cover/optbg1.jpg);
-    background-color: linear-gradient(to top,#ffffff,rgba(255, 255, 255, 0));
+    background-color: linear-gradient(to top, #ffffff, rgba(255, 255, 255, 0));
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.banner-slogan{
-    font-family: Chronicle Display A,serif;
+.banner-slogan {
+    font-family: Chronicle Display A, serif;
 }
-.laravel-hero-section{
+.laravel-hero-section {
     /*background-image: url(../img/cover/laravel.jpg);*/
-background: linear-gradient(120deg, #f55247, #FFFFFF);
+    background: linear-gradient(120deg, #f55247, #ffffff);
 }
-.web-dev-hero-section{
+.web-dev-hero-section {
     background-image: url(../img/cover/optbg2.jpg);
 }
-.about-hero-section{
+.about-hero-section {
     background-image: url(../img/cover/team.jpg);
 }
-.home-hero-section h1,.laravel-hero-section h1,.web-dev-hero-section h1,.about-hero-section h1{
-    font-size: 2rem!important;
+.home-hero-section h1,
+.laravel-hero-section h1,
+.web-dev-hero-section h1,
+.about-hero-section h1 {
+    font-size: 2rem !important;
     font-weight: bold;
 }
-.promo-laravel img{
+.promo-laravel img {
     width: 100% !important;
 }
-.inst-left,.inst-right,.team-member-des,.ours{
-    border-left: 2px solid #DADBDC!important;
+.inst-left,
+.inst-right,
+.team-member-des,
+.ours {
+    border-left: 2px solid #dadbdc !important;
 }
-.inst-item-list-row li{
-    float: left!important;
+.inst-item-list-row li {
+    float: left !important;
 }
 /* The banner design */
-.banner-card{
-    border-radius: 0.5rem!important;
-    background :linear-gradient(to right,#21b989,#82d8af)!important;
+.banner-card {
+    border-radius: 0.5rem !important;
+    background: linear-gradient(to right, #21b989, #82d8af) !important;
 }
 /* Client section design */
-.client-section,.our-technology,.our-clients,.our-teams{
-    background: linear-gradient(to bottom,#ffffff,#F2EFEB)!important;
+.client-section,
+.our-technology,
+.our-clients,
+.our-teams {
+    background: linear-gradient(to bottom, #ffffff, #f2efeb) !important;
 }
 /* Main section design end */
 /* Footer design start */
-.footer-top{
-    background: #fff!important;
+.footer-top {
+    background: #fff !important;
 }
-.footer-top-title{
+.footer-top-title {
     border-top: 4px solid;
-    font-size: 3.5rem!important;
+    font-size: 3.5rem !important;
 }
 /* Design the postcard */
-.postcard-left{
-    right: unset!important;
+.postcard-left {
+    right: unset !important;
     left: -45rem;
 }
 .postcard {
     right: -36rem;
     top: 5rem;
 }
-.postcard a{
+.postcard a {
     transform: rotate(-3deg);
 }
-.postcard-left a{
+.postcard-left a {
     transform: rotate(3deg);
 }
-.postcard-image{
-    width: 65rem!important;
+.postcard-image {
+    width: 65rem !important;
 }
 /* Learn more links */
-.learn-more{
-    background: linear-gradient(to right, #CBE2E9, #E1F0F2)!important;
+.learn-more {
+    background: linear-gradient(to right, #cbe2e9, #e1f0f2) !important;
     border-radius: 0.5rem;
 }
 /* Footer */
-.the-footer,.footer-bootom{
-    background: #393E3A!important;
+.the-footer,
+.footer-bootom {
+    background: #393e3a !important;
 }
-.the-footer a, p {
+.the-footer a,
+p {
     color: #f7f7f7 !important;
 }
-.footer-menu a,.social a,.adr a,.contact a,.footer-bootom-menu a{
-    color: #f7f7f7!important;
+.footer-menu a,
+.social a,
+.adr a,
+.contact a,
+.footer-bootom-menu a {
+    color: #f7f7f7 !important;
 }
-.footer-bootom-menu a{
-    opacity: 0.5!important;
+.footer-bootom-menu a {
+    opacity: 0.5 !important;
 }
 /* Footer design end */
 
 /* Laravel page design start */
 /* Short description design start */
-.srt-des-laravel-icon,.srt-des-vueJs-icon,.srt-des-reactJs-icon{
-    background: #ffffff!important;
+.srt-des-laravel-icon,
+.srt-des-vueJs-icon,
+.srt-des-reactJs-icon {
+    background: #ffffff !important;
     padding: 0.8rem;
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
 }
-.srt-des-vueJs-icon,.srt-des-reactJs-icon{
+.srt-des-vueJs-icon,
+.srt-des-reactJs-icon {
     position: absolute;
 }
-.srt-des-reactJs-icon{
+.srt-des-reactJs-icon {
     left: 4.5rem;
 }
 /* Short description design end */
 /* Our technology section design start */
-.our-technology-heading,.our-clients-heading,.our-team-heading{
+.our-technology-heading,
+.our-clients-heading,
+.our-team-heading {
     background: #ffffff;
     display: inline-block;
     padding-right: 1rem;
 }
-.our-technology-heading::after,.our-clients-heading::after,.our-team-heading::after{
+.our-technology-heading::after,
+.our-clients-heading::after,
+.our-team-heading::after {
     content: "";
     width: calc(100% - 21rem);
     height: 0.2rem;
-    background: #dddddd!important;
+    background: #dddddd !important;
     display: block;
     position: absolute;
     top: 1rem;
     right: 0;
 }
-.technology-item p{
-    font-size: 1rem!important;
+.technology-item p {
+    font-size: 1rem !important;
     position: relative;
 }
-.technology-item p::after{
+.technology-item p::after {
     content: "";
     width: 0.3rem;
     height: 0.3rem;
-    background: #197593!important;
+    background: #197593 !important;
     border-radius: 50%;
     display: block;
     position: absolute;
     right: -1.5rem;
     top: 0.6rem;
 }
-.technology-item p:last-child::after{
-    display: none!important;
+.technology-item p:last-child::after {
+    display: none !important;
 }
 /* Our technology section design end */
 /* Laravel page design end */
 /* Web development page design start */
-.work-step p{
-    font-size: 1.2rem!important;
+.work-step p {
+    font-size: 1.2rem !important;
 }
-.work-process1{
+.work-process1 {
     left: -16rem;
     width: 55rem;
     top: -4rem;
     z-index: 999;
 }
-.work-process2{
+.work-process2 {
     width: 40rem;
     top: 0;
     right: 4rem;
 }
-.work-process3{
+.work-process3 {
     width: 40rem;
     left: -1rem;
     bottom: -1rem;
 }
-.work-process4{
+.work-process4 {
     width: 20rem;
     right: 2rem;
     top: 2rem;
 }
-.work-process5{
+.work-process5 {
     width: 65rem;
     top: -15rem;
     left: -18rem;
 }
-.work-process6{
+.work-process6 {
     width: 15rem;
     left: -14rem;
     top: -10rem;
 }
-.grd-6{
-    display: grid!important;
+.grd-6 {
+    display: grid !important;
 }
 /* Web development page design end */
 /* About page design start */
-.avatar{
+.avatar {
     width: 6rem;
     height: 6rem;
 }
-.avatar img{
+.avatar img {
     height: 100%;
     border-radius: 50%;
     border: 5px solid white;
@@ -362,7 +385,7 @@ background: linear-gradient(120deg, #f55247, #FFFFFF);
     object-position: center;
 }
 /* About page design end */
- /* ==========================================================================
+/* ==========================================================================
    Helper classes
    ========================================================================== */
 
@@ -370,8 +393,8 @@ background: linear-gradient(120deg, #f55247, #FFFFFF);
  * Hide visually and from screen readers
  */
 
- .hidden {
-  display: none !important;
+.hidden {
+    display: none !important;
 }
 
 /*
@@ -384,15 +407,15 @@ background: linear-gradient(120deg, #f55247, #FFFFFF);
 */
 
 .visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-  white-space: nowrap; /* 1 */
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
 }
 
 /*
@@ -403,13 +426,13 @@ background: linear-gradient(120deg, #f55247, #FFFFFF);
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  width: auto;
-  white-space: inherit;
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
 }
 
 /*
@@ -417,7 +440,7 @@ background: linear-gradient(120deg, #f55247, #FFFFFF);
 */
 
 .invisible {
-  visibility: hidden;
+    visibility: hidden;
 }
 
 /*
@@ -434,14 +457,13 @@ background: linear-gradient(120deg, #f55247, #FFFFFF);
 
 .clearfix:before,
 .clearfix:after {
-  content: " "; /* 1 */
-  display: table; /* 2 */
+    content: " "; /* 1 */
+    display: table; /* 2 */
 }
 
 .clearfix:after {
-  clear: both;
+    clear: both;
 }
-
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
@@ -450,24 +472,27 @@ background: linear-gradient(120deg, #f55247, #FFFFFF);
    ========================================================================== */
 @media only screen and (min-width: 576px) {
     /* navbar brand */
-    .navbar-brand{
-        width: 10rem!important;
+    .navbar-brand {
+        width: 10rem !important;
     }
-    .navbar-brand img{
-        width: 50%!important;
+    .navbar-brand img {
+        width: 50% !important;
     }
     /* End navbar brand */
-    .lead-sm{
-        font-size: 1.5rem!important;
+    .lead-sm {
+        font-size: 1.2rem !important;
     }
-    .home-hero-section h1,.laravel-hero-section h1,.web-dev-hero-section h1,.about-hero-section h1{
-        font-size: 3rem!important;
+    .home-hero-section h1,
+    .laravel-hero-section h1,
+    .web-dev-hero-section h1,
+    .about-hero-section h1 {
+        font-size: 3rem !important;
     }
     /* Short description design Start    */
-    .srt-des-item h5{
-        padding-top: 10rem!important;
+    .srt-des-item h5 {
+        padding-top: 10rem !important;
     }
-    .srt-des-laravel-icon{
+    .srt-des-laravel-icon {
         padding: 1.5rem;
         width: 8rem;
         height: 8rem;
@@ -477,7 +502,8 @@ background: linear-gradient(120deg, #f55247, #FFFFFF);
         right: -0.5rem;
         z-index: 1;
     }
-    .srt-des-vueJs-icon,.srt-des-reactJs-icon{
+    .srt-des-vueJs-icon,
+    .srt-des-reactJs-icon {
         padding: 1rem;
         width: 5rem;
         height: 5rem;
@@ -485,7 +511,7 @@ background: linear-gradient(120deg, #f55247, #FFFFFF);
         position: absolute;
         left: 0em;
     }
-    .srt-des-reactJs-icon{
+    .srt-des-reactJs-icon {
         position: absolute;
         top: 4rem;
         left: 0em;
@@ -493,21 +519,23 @@ background: linear-gradient(120deg, #f55247, #FFFFFF);
     /* Short description design end */
 }
 @media only screen and (min-width: 768px) {
-    .lead{
-        font-size: 2rem!important;
+    .lead {
+        font-size: 1.5rem !important;
     }
-    .home-hero-section h1,.laravel-hero-section h1,.web-dev-hero-section h1,.about-hero-section h1{
-        font-size: 5rem!important;
+    .home-hero-section h1,
+    .laravel-hero-section h1,
+    .web-dev-hero-section h1,
+    .about-hero-section h1 {
+        font-size: 4rem !important;
     }
 }
 
 @media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
+    (-webkit-min-device-pixel-ratio: 1.25),
+    (min-resolution: 1.25dppx),
+    (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
-
 
 /* ==========================================================================
    Print styles.
@@ -515,7 +543,7 @@ background: linear-gradient(120deg, #f55247, #FFFFFF);
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 
-   @media print {
+@media print {
     *,
     *:before,
     *:after {
@@ -584,5 +612,3 @@ background: linear-gradient(120deg, #f55247, #FFFFFF);
         page-break-after: avoid;
     }
 }
-
-
