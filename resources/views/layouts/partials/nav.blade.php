@@ -39,7 +39,7 @@
                         <a class="nav-link" href="{{ route('qbytesoft.open-source') }}">Open Source</a>
                     </li>
                     <li class="nav-item mr-lg-3 pr-xl-4">
-                        <a class="nav-link" href="{{ route('qbytesoft.open-source') }}">Contact Us</a>
+                        <a class="nav-link" href="{{ route('qbytesoft.contact') }}">Contact Us</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('qbytesoft.about') }}">About Us</a>

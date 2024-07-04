@@ -21,7 +21,7 @@
                 <li class="list-style-none">
                   <p class="lead-sm">
                     <i class="fas fa-chevron-right text-primary fa-xs"></i>
-                    <a href="{{ url(config('qbytesoft.github')) }}" class="text-primary-d">Open source Collection</a>
+                    <a href="{{ url(config('qbytesoft.github')) }}" target="_blank" class="text-primary-d">Open source Collection</a>
                   </p>
                 </li>
               </ul>
