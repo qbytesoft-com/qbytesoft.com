@@ -115,7 +115,7 @@
         <div class="container">
             <div class="banner-card p-5 d-flex flex-lg-row flex-column justify-content-lg-between align-items-lg-center">
                 <h3 class="text-light">Discuss your idea with us<br>or make us generate one.</h3>
-                <h1 class="text-light font-weight-bold text-center text-md-right">Let's<a href="https://calendly.com/qbytesoft" target="_blank" class="text-light"> <span class="border border-1 p-2">Schedule A Call</span></a></h1>
+                <h2 class="text-light text- font-weight-bold text-center text-md-right mt-4 mt-lg-0">Let's<a href="https://calendly.com/qbytesoft" target="_blank" class="text-light"> <span class="text-wrap p-2">Schedule A Call</span></a></h2>
             </div>
         </div>
     </div>
