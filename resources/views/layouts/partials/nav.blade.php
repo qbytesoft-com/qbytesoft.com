@@ -14,7 +14,7 @@
 
         <!-- Navbar links -->
         <div class="container-fluid">
-            <div class="collapse navbar-collapse h-100 d-flex justify-content-between" id="collapsibleNavbar">
+            <div class="collapse navbar-collapse h-100 d-flex:lg justify-content-between" id="collapsibleNavbar">
                 <ul class="navbar-nav mt-4">
                     <li class="nav-item mr-lg-3 pr-xl-4">
                         <a class="nav-link active" href="{{ route('qbytesoft.home') }}">Home</a>
