@@ -18,7 +18,9 @@
                     <p class="lead-sm m-0"><a href="#" class="text-decoration-none text-primary-d">+8801611032464</a></p>
                 </div>
                 <div class="col-12 col-md-4 mt-4">
-                    <p class="lead-sm m-0"><a href="" class="text-decoration-none text-primary-d">House-06, Road-12/A<br>Sector-10 Uttara<br>Dhaka-1230 <i class="fas fa-map-marker-alt text-danger-c"></i></a></p>
+                    <p class="lead-sm m-0"><a href="" class="text-decoration-none text-primary-d">
+                            <i class="fas fa-map-marker-alt text-danger-c"></i>
+                            218, Shefali Complex, Level-5,<br>3 Begum Rokeya Sarani Shewrapara,<br>Mirpur, Dhaka-1207 </a></p>
                 </div>
 {{--                <div class="col-12 col-md-4 mt-4">--}}
 {{--                    <p class="text-primary-d m-0"><span class="text-gray">VAT</span> BE0809.387.596</p>--}}
@@ -81,28 +83,68 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-6 mt-5">
+                    <div class="team-member">
+                        <!-- Team member top information -->
+                        <div class="member-info d-flex flex-row justify-content-start align-items-center">
+                            <div class="avatar">
+                                <img src="{{ asset('qbytesoft/img/team/ashik.png') }}" alt="team_member" class="w-100">
+                            </div>
+                            <div class="memeber-name-pos ml-3">
+                                <h5 class="text-primary-d font-weight-bold text-uppercase">Nur Alam Siddik Ashik</h5>
+                                <h6 class="text-gray font-weight-bold text-uppercase">Account Manager</h6>
+                                </h6>
+                            </div>
+                        </div>
+                        <!-- Team member description -->
+                        <div class="team-member-des mt-4 pl-3">
+
+                        </div>
+                    </div>
+                </div>
                 <!-- Team member -->
                 <div class="col-md-6 mt-5">
                     <div class="team-member">
                         <!-- Team member top information -->
                         <div class="member-info d-flex flex-row justify-content-start align-items-center">
                             <div class="avatar">
-                                <img src="{{ asset('qbytesoft/img/avatar/pexels-photo-415829.jpeg') }}" loading="lazy"  alt="team_member" class="w-100">
+                                <img src="{{ asset('qbytesoft/img/team/sohan.png') }}" loading="lazy"  alt="team_member" class="w-100">
                             </div>
                             <div class="memeber-name-pos ml-3">
-                                <h5 class="text-primary-d font-weight-bold text-uppercase">Nabil Ahmed Emon</h5>
+                                <h5 class="text-primary-d font-weight-bold text-uppercase">Md Sohanur Rahman</h5>
                                 <h6 class="text-gray font-weight-bold text-uppercase">UI Designer</h6>
                             </div>
                         </div>
                         <!-- Team member description -->
                         <div class="team-member-des mt-4 pl-3">
-                            <p class="text-secondary">Alex can throw backend code, servers and hardware in the mix. He's famous for winning the first Laravel blog contest and struggling with Paypal ever since.</p>
-                            <a href="#" class="link-color">@alexvanderbist</a>
-                            <a href="#" class="link-color">alexvanderbist.com</a>
+                            <p class="text-secondary"></p>
+
                         </div>
                     </div>
                 </div>
                 <!-- Team member -->
+
+                <!-- Team member -->
+                <div class="col-md-6 mt-5">
+                    <div class="team-member">
+                        <!-- Team member top information -->
+                        <div class="member-info d-flex flex-row justify-content-start align-items-center">
+                            <div class="avatar">
+                                <img src="{{ asset('qbytesoft/img/team/masud.png') }}" alt="team_member" class="w-100">
+                            </div>
+                            <div class="memeber-name-pos ml-3">
+                                <h5 class="text-primary-d font-weight-bold text-uppercase">Md. Masudur Rahman</h5>
+                                <h6 class="text-gray font-weight-bold text-uppercase">Frontend Developer
+                                </h6>
+                            </div>
+                        </div>
+                        <!-- Team member description -->
+                        <div class="team-member-des mt-4 pl-3">
+
+                        </div>
+                    </div>
+                </div>
+
                 <div class="col-md-6 mt-5">
                     <div class="team-member">
                         <!-- Team member top information -->
@@ -117,38 +159,12 @@
                         </div>
                         <!-- Team member description -->
                         <div class="team-member-des mt-4 pl-3">
-                            <p class="text-secondary">PHP developer with experience in the layout,
-                                design and coding of websites, framework, CMS
-                                specifically in PHP format. Knowledgeable of backend
-                                development using PHP programming language and
-                                MySQL & SQL databases. Possessing considerable
-                                knowledge of the frontend development.</p>
-                            <a href="#" class="link-color">@millat</a>
-                            <a href="#" class="link-color">millat.qbytesoft.com</a>
+
+
                         </div>
                     </div>
                 </div>
-                <!-- Team member -->
-{{--                <div class="col-md-6 mt-5">--}}
-{{--                    <div class="team-member">--}}
-{{--                        <!-- Team member top information -->--}}
-{{--                        <div class="member-info d-flex flex-row justify-content-start align-items-center">--}}
-{{--                            <div class="avatar">--}}
-{{--                                <img src="img/avatar/pexels-photo-743890.jpeg" alt="team_member" class="w-100">--}}
-{{--                            </div>--}}
-{{--                            <div class="memeber-name-pos ml-3">--}}
-{{--                                <h5 class="text-primary-d font-weight-bold text-uppercase">FREEK VAN DER HERTEN</h5>--}}
-{{--                                <h6 class="text-gray font-weight-bold text-uppercase">BACKEND DEVELOPER</h6>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                        <!-- Team member description -->--}}
-{{--                        <div class="team-member-des mt-4 pl-3">--}}
-{{--                            <p class="text-secondary">Freek is our godfather of backend code. You are not into Laravel if this face doesn't ring a bell to you</p>--}}
-{{--                            <a href="#" class="link-color">@freekmurze</a>--}}
-{{--                            <a href="#" class="link-color">freek.dev</a>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
+
 
             </div>
         </div>

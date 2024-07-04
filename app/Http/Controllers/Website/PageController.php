@@ -30,7 +30,7 @@ class PageController extends Controller
     {
         return view('website.shopify');
     }
-    public function product()
+    public function shopifyApps()
     {
         return view('website.product');
     }

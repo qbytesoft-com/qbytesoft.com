@@ -34,14 +34,14 @@
                     <img src="{{ asset('qbytesoft/img/p3.jpg') }}" alt="post-card" class="w-50">
                 </div>
             </a>
-            <div class="d-flex justify-content-center w-50 nr-5">
-              <p style="color: #004966" class="mt-5 text-right">Check out the <a href="#">postcards</a><br>we get from kind users all over the world.</p>
-            </div>
+{{--            <div class="d-flex justify-content-center w-50 nr-5">--}}
+{{--              <p style="color: #004966" class="mt-5 text-right">Check out the <a href="#">postcards</a><br>we get from kind users all over the world.</p>--}}
+{{--            </div>--}}
           </div>
         </div>
       </div>
     </div>
-    
+
     <!-- The footer -->
     <div class="the-footer py-5">
         <div class="container">
@@ -49,16 +49,27 @@
                 <div class="col-md-6">
                     <!-- Footer menu -->
                     <div class="footer-menu d-flex flex-column flex-lg-row justify-content-lg-between">
-                        <a href="{{ route('qbytesoft.home') }}" class="active text-decoration-none"><p class="lead-sm">Home</p></a>
-                        <a href="{{ route('qbytesoft.web-development') }}" class="text-decoration-none"><p class="lead-sm">Web development</p></a>
-                        <a href="{{ route('qbytesoft.laravel') }}" class="text-decoration-none"><p class="lead-sm">Laravel</p></a>
-                        <a href="{{ route('qbytesoft.shopify') }}" class="text-decoration-none"><p class="lead-sm">Shopify</p></a>
+                        <ul class="list-style-none">
+                            <li class="">
+                                <a href="{{ route('qbytesoft.home') }}" class="active text-decoration-none"><p class="lead-sm">Shopify Apps</p></a>
+                            </li>
+                            <li>
+                                <a href="{{ route('qbytesoft.web-development') }}" class="text-decoration-none"><p class="lead-sm">Web development</p></a>
+
+                            </li>
+                            <li>
+                                <a href="{{ route('qbytesoft.laravel') }}" class="text-decoration-none"><p class="lead-sm">Hire For Laravel</p></a>
+                            </li>
+                            <li>
+                                <a href="{{ route('qbytesoft.shopify') }}" class="text-decoration-none"><p class="lead-sm">Hire for Shopify</p></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <!-- Footer menu -->
                     <div class="footer-menu d-flex flex-column flex-lg-row justify-content-lg-around">
-                        <a href="{{ route('qbytesoft.product') }}" class="text-decoration-none"><p class="lead-sm">Product</p></a>
+                        <a href="{{ route('qbytesoft.products') }}" class="text-decoration-none"><p class="lead-sm">Product</p></a>
                         <a href="{{ route('qbytesoft.open-source') }}" class="text-decoration-none"><p class="lead-sm">Open source</p></a>
                         <a href="{{ route('qbytesoft.about') }}" class="text-decoration-none"><p class="lead-sm">About us</p></a>
                     </div>
@@ -79,7 +90,7 @@
                     <!-- Address and contact information -->
                     <div class="d-flex flex-lg-row flex-column justify-content-lg-end align-items-start">
                         <div class="adr mr-lg-4 text-lg-right">
-                            <p class="text-decoration-none">House-06, Road-12/A, Sector-10<br><i class="fas fa-map-marker-alt text-danger-c"></i> Uttara, Dhaka-1230</p>
+                            <p class="text-decoration-none">218, Shefali Complex, Level-5, 3 Begum Rokeya Sarani<br><i class="fas fa-map-marker-alt text-danger-c"></i> Shewrapara, Mirpur, Dhaka-1207</p>
                         </div>
                         <div class="contact text-lg-right mt-4 mt-lg-0">
                             <a href="mailto:info@qbytesoft.com" class="text-decoration-none">info@qbytesoft.com</a>
