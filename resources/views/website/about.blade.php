@@ -60,7 +60,10 @@
     <!-- Start our team section -->
     <div class="our-teams py-5">
         <div class="container position-relative">
-            <h3 class="text-primary-d font-weight-bold our-team-heading">Meet the team</h3>
+            <div class="container d-flex flex-column align-items-center">
+                <h3 class="font-weight-bold footer-top-title text-primary-d d-inline-block pt-3"> Expert &#10084; Members
+                </h3>
+            </div>
             <div class="row mt-5">
                 <!-- Team member -->
                 <div class="col-md-6 mt-5">
