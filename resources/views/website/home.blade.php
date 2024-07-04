@@ -7,8 +7,8 @@
     <div class="home-hero-section py-5">
         <div class="container pt-5 px-lg-5">
             <!-- Hero heading -->
-            <h1 class="banner-slogan text-primary-d">Got an Idea?<br> We'll make it real.</h1>
-            <p class="mt-3 text-primary-d lead">We do design and develop websites & web applications.<br>Expert in Laravel, React & Vue</p>
+            <h1 class="banner-slogan text-primary-d">Boost your shopify store <br> with optimised pixel perfect design</h1>
+            <p class="mt-3 text-primary-d lead">We do design and develop websites & web applications.<br>Expert in Shopify theme and apps development</p>
             <div class="banner-card p-5 d-flex">'<h2 class="text-light font-weight-bold">Get<a href="https://calendly.com/qbytesoft" target="_blank" class="text-light"> <span class="p-2">Free Shopify Store Audit</span></a></h2>
             </div>
 
