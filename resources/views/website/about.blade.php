@@ -72,14 +72,13 @@
                             </div>
                             <div class="memeber-name-pos ml-3">
                                 <h5 class="text-primary-d font-weight-bold text-uppercase">Md Morshadun Nur</h5>
-                                <h6 class="text-gray font-weight-bold text-uppercase">Full Stack DEVELOPER</h6>
+                                <h6 class="text-gray font-weight-bold text-uppercase">Founder & Shopify Expert</h6>
+                                <div class="">
+
+                                    <a target="_blank" href="{{ url('https://twitter.com/morshadun') }}" class="link-color">@morshadun</a>
+                                    <a target="_blank" href="{{ url('https://morshadunnur.me') }}" class="link-color">morshadunnur.me</a>
+                                </div>
                             </div>
-                        </div>
-                        <!-- Team member description -->
-                        <div class="team-member-des mt-4 pl-3">
-                            <p class="text-secondary">Morshadun Nur is a full stack developer.He is a passionate PHP developer.Also he is playing with Javascript, Laravel, Lumen, Vue.</p>
-                            <a target="_blank" href="{{ url('https://twitter.com/morshadun') }}" class="link-color">@morshadun</a>
-                            <a target="_blank" href="{{ url('https://morshadunnur.me') }}" class="link-color">morshadunnur.me</a>
                         </div>
                     </div>
                 </div>
@@ -135,6 +134,26 @@
                             <div class="memeber-name-pos ml-3">
                                 <h5 class="text-primary-d font-weight-bold text-uppercase">Md. Masudur Rahman</h5>
                                 <h6 class="text-gray font-weight-bold text-uppercase">Frontend Developer
+                                </h6>
+                            </div>
+                        </div>
+                        <!-- Team member description -->
+                        <div class="team-member-des mt-4 pl-3">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mt-5">
+                    <div class="team-member">
+                        <!-- Team member top information -->
+                        <div class="member-info d-flex flex-row justify-content-start align-items-center">
+                            <div class="avatar">
+                                <img src="{{ asset('qbytesoft/img/team/maruf.png') }}" alt="team_member" class="w-100">
+                            </div>
+                            <div class="memeber-name-pos ml-3">
+                                <h5 class="text-primary-d font-weight-bold text-uppercase">Md. Maruf Ahmed</h5>
+                                <h6 class="text-gray font-weight-bold text-uppercase">Shopify Developer
                                 </h6>
                             </div>
                         </div>

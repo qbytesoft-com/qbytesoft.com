@@ -44,4 +44,9 @@ class PageController extends Controller
     {
         return view('website.about');
     }
+
+    public function contact()
+    {
+        return view('website.contact');
+    }
 }

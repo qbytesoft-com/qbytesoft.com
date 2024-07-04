@@ -14,7 +14,7 @@
 
         <!-- Navbar links -->
         <div class="container-fluid">
-            <div class="collapse navbar-collapse h-100" id="collapsibleNavbar">
+            <div class="collapse navbar-collapse h-100 d-flex justify-content-between" id="collapsibleNavbar">
                 <ul class="navbar-nav mt-4">
                     <li class="nav-item mr-lg-3 pr-xl-4">
                         <a class="nav-link active" href="{{ route('qbytesoft.home') }}">Home</a>
@@ -45,7 +45,9 @@
                         <a class="nav-link" href="{{ route('qbytesoft.about') }}">About Us</a>
                     </li>
                 </ul>
-                <button>Get Free Audit</button>
+                <a class="mt-4 btn btn-info text-white btn-lg " href="">
+                    Get Free Audit
+                </a>
             </div>
 
         </div>
