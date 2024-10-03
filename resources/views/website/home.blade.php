@@ -124,7 +124,7 @@
     <div class="client-section py-5">
         <div class="container d-flex flex-column align-items-center">
             <!-- The title -->
-            <h3 class="font-weight-bold footer-top-title text-primary-d d-inline-block pt-3"> CLIENTS WE &#10084; WORK WITH</h3>
+            <h3 class="font-weight-bold footer-top-title text-primary-d d-inline-block pt-3">   CLIENTS WE &#10084; WORK WITH</h3>
             <!-- Clients brand logo -->
             <div class="clients mt-5">
                 <div class="row">

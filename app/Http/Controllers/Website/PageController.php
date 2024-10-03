@@ -49,4 +49,9 @@ class PageController extends Controller
     {
         return view('website.contact');
     }
+
+    public function privacyPolicy()
+    {
+        return view('website.privacy-policy');
+    }
 }
