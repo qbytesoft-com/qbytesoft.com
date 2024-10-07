@@ -12,6 +12,7 @@ Route::namespace('Website')->group(function (){
     Route::get('/about-qbytesoft','PageController@about')->name('qbytesoft.about');
     Route::get('/contact-us','PageController@contact')->name('qbytesoft.contact');
     Route::get('/privacy-policy','PageController@privacyPolicy')->name('qbytesoft.privacy-policy');
+    Route::get('/qchat/privacy-policy','PageController@qchatPolicy')->name('qbytesoft.qchat-privacy-policy');
 });
 
 

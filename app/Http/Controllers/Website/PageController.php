@@ -54,4 +54,8 @@ class PageController extends Controller
     {
         return view('website.privacy-policy');
     }
+    public function qchatPolicy()
+    {
+        return view('website.qchat-privacy-policy');
+    }
 }
